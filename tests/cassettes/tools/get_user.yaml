@@ -1,0 +1,42 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Host:
+      - hn.algolia.com
+      User-Agent:
+      - python-httpx/0.28.1
+    method: GET
+    uri: https://hn.algolia.com/api/v1/users/norvig
+  response:
+    body:
+      string: '{"about":"http:&#x2F;&#x2F;norvig.com","karma":1199,"username":"norvig"}
+
+        '
+    headers:
+      Alt-Svc:
+      - h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+      Content-Length:
+      - '73'
+      access-control-allow-origin:
+      - '*'
+      content-type:
+      - application/json
+      date:
+      - Sun, 15 Feb 2026 16:07:53 GMT
+      server:
+      - Google Frontend
+      via:
+      - 1.1 google
+      x-cloud-trace-context:
+      - f89b45b9a09a1da92c506ef14c7c0f2b
+    status:
+      code: 200
+      message: OK
+version: 1

@@ -1,0 +1,52 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Host:
+      - hn.algolia.com
+      User-Agent:
+      - python-httpx/0.28.1
+    method: GET
+    uri: https://hn.algolia.com/api/v1/search?tags=front_page&hitsPerPage=5
+  response:
+    body:
+      string: '{"exhaustive":{"nbHits":true,"typo":true},"exhaustiveNbHits":true,"exhaustiveTypo":true,"hits":[{"_highlightResult":{"author":{"matchLevel":"none","matchedWords":[],"value":"i5heu"},"title":{"matchLevel":"none","matchedWords":[],"value":"uBlock
+        filter list to hide all YouTube Shorts"},"url":{"matchLevel":"none","matchedWords":[],"value":"https://github.com/i5heu/ublock-hide-yt-shorts/"}},"_tags":["story","author_i5heu","story_47016443","front_page"],"author":"i5heu","children":[47017366,47017376,47017379,47017438,47017512,47017513,47017516,47017519,47017596,47017664,47017718,47017744,47017748,47017942,47017951,47018000,47018061,47018124,47018173,47018210,47018248,47018268,47018278,47018350,47018363,47018403,47018469,47018482,47018519,47018619,47018663,47018688,47018716,47018776,47018851,47018944,47018959,47018960,47018968,47019161,47019196,47019350,47019650,47019692,47019724,47019830,47019832,47019860,47020116,47020333,47020524,47020582,47020596,47020642,47020812,47020818,47020861,47020896,47021154,47021204,47021215,47021367,47021537,47021550,47021785,47022274,47022455,47022591,47022856,47022949,47023092,47023345,47023845,47024059,47024744],"created_at":"2026-02-14T17:36:45Z","created_at_i":1771090605,"num_comments":306,"objectID":"47016443","points":1026,"story_id":47016443,"title":"uBlock
+        filter list to hide all YouTube Shorts","updated_at":"2026-02-15T16:07:26Z","url":"https://github.com/i5heu/ublock-hide-yt-shorts/"},{"_highlightResult":{"author":{"matchLevel":"none","matchedWords":[],"value":"panic"},"title":{"matchLevel":"none","matchedWords":[],"value":"I
+        love the work of the ArchWiki maintainers"},"url":{"matchLevel":"none","matchedWords":[],"value":"https://k7r.eu/i-love-the-work-of-the-archwiki-maintainers/"}},"_tags":["story","author_panic","story_47020191","front_page"],"author":"panic","children":[47020580,47020584,47020609,47020650,47020675,47020774,47020814,47021001,47021117,47021213,47021269,47021288,47021338,47021362,47021385,47021678,47021770,47021961,47022326,47022571,47022650,47022670,47022687,47023088,47023321,47023641,47024694],"created_at":"2026-02-15T01:20:58Z","created_at_i":1771118458,"num_comments":119,"objectID":"47020191","points":701,"story_id":47020191,"title":"I
+        love the work of the ArchWiki maintainers","updated_at":"2026-02-15T16:07:26Z","url":"https://k7r.eu/i-love-the-work-of-the-archwiki-maintainers/"},{"_highlightResult":{"author":{"matchLevel":"none","matchedWords":[],"value":"ninjagoo"},"title":{"matchLevel":"none","matchedWords":[],"value":"News
+        publishers limit Internet Archive access due to AI scraping concerns"},"url":{"matchLevel":"none","matchedWords":[],"value":"https://www.niemanlab.org/2026/01/news-publishers-limit-internet-archive-access-due-to-ai-scraping-concerns/"}},"_tags":["story","author_ninjagoo","story_47017138","front_page"],"author":"ninjagoo","children":[47017139,47017223,47017238,47017244,47017268,47017322,47017341,47017408,47017418,47017445,47017467,47017502,47017527,47017536,47017575,47017620,47017766,47017793,47017832,47017924,47017944,47018137,47018167,47018181,47018212,47018321,47018325,47018384,47018413,47018916,47018962,47019083,47019279,47019466,47019534,47019557,47019848,47020260,47020314,47020483,47020716,47020878,47021865,47021952,47023939],"created_at":"2026-02-14T18:46:32Z","created_at_i":1771094792,"num_comments":337,"objectID":"47017138","points":533,"story_id":47017138,"title":"News
+        publishers limit Internet Archive access due to AI scraping concerns","updated_at":"2026-02-15T16:07:26Z","url":"https://www.niemanlab.org/2026/01/news-publishers-limit-internet-archive-access-due-to-ai-scraping-concerns/"},{"_highlightResult":{"author":{"matchLevel":"none","matchedWords":[],"value":"minimalthinker"},"title":{"matchLevel":"none","matchedWords":[],"value":"My
+        smart sleep mask broadcasts users'' brainwaves to an open MQTT broker"},"url":{"matchLevel":"none","matchedWords":[],"value":"https://aimilios.bearblog.dev/reverse-engineering-sleep-mask/"}},"_tags":["story","author_minimalthinker","story_47015294","front_page"],"author":"minimalthinker","children":[47015471,47015502,47015519,47015544,47015547,47015602,47015753,47015755,47015965,47016027,47016031,47016094,47016388,47016524,47016619,47016668,47016733,47016754,47016939,47016989,47017226,47017314,47017431,47017689,47018074,47018461,47018664,47018703,47018759,47018833,47019009,47019273,47020342,47020452,47020521,47021069,47021073,47021170,47021281,47021802,47021827,47022074,47022205,47022301,47022432,47022965,47023263,47023413],"created_at":"2026-02-14T15:35:47Z","created_at_i":1771083347,"num_comments":229,"objectID":"47015294","points":531,"story_id":47015294,"title":"My
+        smart sleep mask broadcasts users'' brainwaves to an open MQTT broker","updated_at":"2026-02-15T16:07:41Z","url":"https://aimilios.bearblog.dev/reverse-engineering-sleep-mask/"},{"_highlightResult":{"author":{"matchLevel":"none","matchedWords":[],"value":"arjunbanker"},"title":{"matchLevel":"none","matchedWords":[],"value":"Breaking
+        the spell of vibe coding"},"url":{"matchLevel":"none","matchedWords":[],"value":"https://www.fast.ai/posts/2026-01-28-dark-flow/"}},"_tags":["story","author_arjunbanker","story_47006615","front_page"],"author":"arjunbanker","children":[47018570,47018714,47018729,47018793,47018817,47018922,47019026,47019063,47019123,47019170,47019227,47019255,47019286,47019309,47019326,47019366,47019392,47019405,47019618,47019643,47019696,47019906,47019962,47020134,47020469,47021192,47021261,47021395,47021507,47021778,47021837,47021842,47021915,47022037,47022575,47022654,47022970,47022979,47023022,47023253,47023347,47023838,47023880,47023914,47024145,47024600],"created_at":"2026-02-13T19:22:18Z","created_at_i":1771010538,"num_comments":267,"objectID":"47006615","points":350,"story_id":47006615,"title":"Breaking
+        the spell of vibe coding","updated_at":"2026-02-15T16:07:41Z","url":"https://www.fast.ai/posts/2026-01-28-dark-flow/"}],"hitsPerPage":5,"nbHits":119,"nbPages":24,"page":0,"params":"tags=front_page&hitsPerPage=5&advancedSyntax=true&analyticsTags=backend","processingTimeMS":1,"processingTimingsMS":{"_request":{"roundTrip":23},"total":1},"query":"","serverTimeMS":1}
+
+        '
+    headers:
+      Alt-Svc:
+      - h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+      Content-Length:
+      - '6186'
+      access-control-allow-origin:
+      - '*'
+      content-type:
+      - application/json
+      date:
+      - Sun, 15 Feb 2026 16:07:50 GMT
+      server:
+      - Google Frontend
+      via:
+      - 1.1 google
+      x-cloud-trace-context:
+      - 9981bcbb7cf3d8babf45c0acd320b20b
+    status:
+      code: 200
+      message: OK
+version: 1

@@ -1,0 +1,97 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Host:
+      - hn.algolia.com
+      User-Agent:
+      - python-httpx/0.28.1
+    method: GET
+    uri: https://hn.algolia.com/api/v1/search_by_date?query=Dropbox&tags=story&hitsPerPage=5&page=0
+  response:
+    body:
+      string: '{"exhaustive":{"nbHits":false,"typo":false},"exhaustiveNbHits":false,"exhaustiveTypo":false,"hits":[{"_highlightResult":{"author":{"matchLevel":"none","matchedWords":[],"value":"ragelink"},"story_text":{"fullyHighlighted":false,"matchLevel":"full","matchedWords":["dropbox"],"value":"We
+        built PlanOpticon to solve a problem we kept hitting: hours of recorded meetings,
+        training sessions, and presentations that nobody rewatches. It extracts structured
+        knowledge from video \u2014 transcripts, diagrams, action items, key points,
+        and a knowledge graph \u2014 into browsable outputs (Markdown, HTML,\n   PDF).<p>How
+        it works:<p><pre><code>  - Extracts frames using change detection (not just
+        every Nth frame), with periodic capture for slow-evolving content like screen
+        shares\n  - Filters out webcam/people-only frames automatically via face detection\n  -
+        Transcribes audio (OpenAI Whisper API or local Whisper \u2014 no API needed)\n  -
+        Sends frames to vision models to identify and recreate diagrams as Mermaid
+        code\n  - Builds a knowledge graph (entities + relationships) from the transcript\n  -
+        Extracts key points, action items, and cross-references between visual and
+        spoken content\n  - Generates a structured report with everything linked together\n</code></pre>\nSupports
+        OpenAI, Anthropic, and Gemini as providers \u2014 auto-discovers available
+        models and routes each task to the best one. Checkpoint/resume so long analyses
+        survive failures.<p><pre><code>  pip install planopticon\n  planopticon analyze
+        -i meeting.mp4 -o ./output\n</code></pre>\nAlso supports batch processing
+        of entire folders and pulling videos from Google Drive or <em>Dropbox</em>.<p>Example:
+        We ran it on a 90-minute training session: 122 frames extracted (from thousands
+        of candidates), 6 diagrams recreated, full transcript with speaker diarization,
+        540-node knowledge graph, and a comprehensive report \u2014 all in about 25
+        minutes.<p>Python 3.10+, MIT licensed. Docs at <a href=\"https://planopticon.dev\"
+        rel=\"nofollow\">https://planopticon.dev</a>."},"title":{"matchLevel":"none","matchedWords":[],"value":"Show
+        HN: PlanOpticon \u2013 Extract structured knowledge from video recordings"},"url":{"matchLevel":"none","matchedWords":[],"value":"https://github.com/ConflictHQ/PlanOpticon"}},"_tags":["story","author_ragelink","story_47021448","show_hn"],"author":"ragelink","created_at":"2026-02-15T06:10:31Z","created_at_i":1771135831,"num_comments":0,"objectID":"47021448","points":2,"story_id":47021448,"story_text":"We
+        built PlanOpticon to solve a problem we kept hitting: hours of recorded meetings,
+        training sessions, and presentations that nobody rewatches. It extracts structured
+        knowledge from video \u2014 transcripts, diagrams, action items, key points,
+        and a knowledge graph \u2014 into browsable outputs (Markdown, HTML,\n   PDF).<p>How
+        it works:<p><pre><code>  - Extracts frames using change detection (not just
+        every Nth frame), with periodic capture for slow-evolving content like screen
+        shares\n  - Filters out webcam&#x2F;people-only frames automatically via face
+        detection\n  - Transcribes audio (OpenAI Whisper API or local Whisper \u2014
+        no API needed)\n  - Sends frames to vision models to identify and recreate
+        diagrams as Mermaid code\n  - Builds a knowledge graph (entities + relationships)
+        from the transcript\n  - Extracts key points, action items, and cross-references
+        between visual and spoken content\n  - Generates a structured report with
+        everything linked together\n</code></pre>\nSupports OpenAI, Anthropic, and
+        Gemini as providers \u2014 auto-discovers available models and routes each
+        task to the best one. Checkpoint&#x2F;resume so long analyses survive failures.<p><pre><code>  pip
+        install planopticon\n  planopticon analyze -i meeting.mp4 -o .&#x2F;output\n</code></pre>\nAlso
+        supports batch processing of entire folders and pulling videos from Google
+        Drive or Dropbox.<p>Example: We ran it on a 90-minute training session: 122
+        frames extracted (from thousands of candidates), 6 diagrams recreated, full
+        transcript with speaker diarization, 540-node knowledge graph, and a comprehensive
+        report \u2014 all in about 25 minutes.<p>Python 3.10+, MIT licensed. Docs
+        at <a href=\"https:&#x2F;&#x2F;planopticon.dev\" rel=\"nofollow\">https:&#x2F;&#x2F;planopticon.dev</a>.","title":"Show
+        HN: PlanOpticon \u2013 Extract structured knowledge from video recordings","updated_at":"2026-02-15T08:02:25Z","url":"https://github.com/ConflictHQ/PlanOpticon"},{"_highlightResult":{"author":{"matchLevel":"none","matchedWords":[],"value":"vinhnx"},"title":{"matchLevel":"none","matchedWords":[],"value":"Low-bit
+        inference enables efficient AI"},"url":{"fullyHighlighted":false,"matchLevel":"full","matchedWords":["dropbox"],"value":"https://<em>dropbox</em>.tech/machine-learning/how-low-bit-inference-enables-efficient-ai"}},"_tags":["story","author_vinhnx","story_47013582"],"author":"vinhnx","created_at":"2026-02-14T11:13:01Z","created_at_i":1771067581,"num_comments":0,"objectID":"47013582","points":1,"story_id":47013582,"title":"Low-bit
+        inference enables efficient AI","updated_at":"2026-02-14T11:17:07Z","url":"https://dropbox.tech/machine-learning/how-low-bit-inference-enables-efficient-ai"},{"_highlightResult":{"author":{"matchLevel":"none","matchedWords":[],"value":"frizlab"},"title":{"matchLevel":"none","matchedWords":[],"value":"Something
+        Big Is Coming (Annotated by Ed Zitron) [pdf]"},"url":{"fullyHighlighted":false,"matchLevel":"full","matchedWords":["dropbox"],"value":"https://www.<em>dropbox</em>.com/scl/fi/qw6k5c3m575cq21p7jjac/Something-Big-Is-Coming-Annotated.pdf?dl=0&e=1&noscript=1&rlkey=qlr0mgnlpjifo5xkon2crhrhw"}},"_tags":["story","author_frizlab","story_47007991"],"author":"frizlab","children":[47011281,47008592,47008514,47011223,47008442,47008525,47008418,47008524],"created_at":"2026-02-13T21:20:19Z","created_at_i":1771017619,"num_comments":38,"objectID":"47007991","points":31,"story_id":47007991,"title":"Something
+        Big Is Coming (Annotated by Ed Zitron) [pdf]","updated_at":"2026-02-15T01:35:24Z","url":"https://www.dropbox.com/scl/fi/qw6k5c3m575cq21p7jjac/Something-Big-Is-Coming-Annotated.pdf?dl=0&e=1&noscript=1&rlkey=qlr0mgnlpjifo5xkon2crhrhw"},{"_highlightResult":{"author":{"matchLevel":"none","matchedWords":[],"value":"stylofront"},"title":{"fullyHighlighted":false,"matchLevel":"full","matchedWords":["dropbox"],"value":"Tired
+        of sharing small files via Google Drive or <em>Dropbox</em> just to manage
+        access"},"url":{"matchLevel":"none","matchedWords":[],"value":"https://www.styloshare.com/"}},"_tags":["story","author_stylofront","story_46955373"],"author":"stylofront","children":[46956054,46955374],"created_at":"2026-02-10T04:23:49Z","created_at_i":1770697429,"num_comments":2,"objectID":"46955373","points":1,"story_id":46955373,"title":"Tired
+        of sharing small files via Google Drive or Dropbox just to manage access","updated_at":"2026-02-10T06:26:21Z","url":"https://www.styloshare.com/"},{"_highlightResult":{"author":{"matchLevel":"none","matchedWords":[],"value":"fanf2"},"title":{"fullyHighlighted":false,"matchLevel":"full","matchedWords":["dropbox"],"value":"Evaluating
+        TCP BBRv2 on the <em>Dropbox</em> edge network"},"url":{"matchLevel":"none","matchedWords":[],"value":"https://arxiv.org/abs/2008.07699"}},"_tags":["story","author_fanf2","story_46937180"],"author":"fanf2","created_at":"2026-02-08T18:42:02Z","created_at_i":1770576122,"num_comments":0,"objectID":"46937180","points":1,"story_id":46937180,"title":"Evaluating
+        TCP BBRv2 on the Dropbox edge network","updated_at":"2026-02-08T18:47:15Z","url":"https://arxiv.org/abs/2008.07699"}],"hitsPerPage":5,"nbHits":6196,"nbPages":200,"page":0,"params":"query=Dropbox&tags=story&hitsPerPage=5&page=0&advancedSyntax=true&analyticsTags=backend","processingTimeMS":12,"processingTimingsMS":{"_request":{"roundTrip":21},"fetch":{"query":4,"scanning":6,"total":11},"total":12},"query":"Dropbox","serverTimeMS":13}
+
+        '
+    headers:
+      Alt-Svc:
+      - h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+      Content-Length:
+      - '7939'
+      access-control-allow-origin:
+      - '*'
+      content-type:
+      - application/json
+      date:
+      - Sun, 15 Feb 2026 16:07:55 GMT
+      server:
+      - Google Frontend
+      via:
+      - 1.1 google
+      x-cloud-trace-context:
+      - 7e55be307f92f9278bc66d3eafebc485
+    status:
+      code: 200
+      message: OK
+version: 1

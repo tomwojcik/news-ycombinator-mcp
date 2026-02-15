@@ -1,0 +1,57 @@
+[project]
+name = "hn-mcp"
+version = "0.1.0"
+description = "MCP server for browsing full Hacker News API, with no limits with regards to depth etc"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.12"
+authors = [{ name = "Tomasz Wójcik" }]
+keywords = ["mcp", "hacker-news", "hn", "algolia", "ai-agents", "llm"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Software Development :: Libraries",
+]
+dependencies = [
+    "mcp[cli]>=1.1.2",
+    "httpx>=0.28",
+]
+
+[project.urls]
+Homepage = "https://github.com/tomwojcik/news-ycombinator-mcp"
+Repository = "https://github.com/tomwojcik/news-ycombinator-mcp"
+Issues = "https://github.com/tomwojcik/news-ycombinator-mcp/issues"
+
+[project.scripts]
+hn-mcp = "hn_mcp:main"
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4.5.1",
+    "pytest>=8",
+    "pytest-asyncio>=0.25",
+    "pytest-cov>=6",
+    "vcrpy>=8",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "src/hn_mcp/",
+    "LICENSE",
+    "README.md",
+]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+addopts = "--cov=hn_mcp --cov-report=term-missing --cov-fail-under=100"
+
+[tool.mypy]
+mypy_path = "src"

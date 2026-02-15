@@ -1,0 +1,120 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Host:
+      - hn.algolia.com
+      User-Agent:
+      - python-httpx/0.28.1
+    method: GET
+    uri: https://hn.algolia.com/api/v1/search?query=dropbox&tags=comment%2Cauthor_BrandonM&hitsPerPage=5&page=0
+  response:
+    body:
+      string: '{"exhaustive":{"nbHits":false,"typo":false},"exhaustiveNbHits":false,"exhaustiveTypo":false,"hits":[{"_highlightResult":{"author":{"matchLevel":"none","matchedWords":[],"value":"BrandonM"},"comment_text":{"fullyHighlighted":false,"matchLevel":"full","matchedWords":["dropbox"],"value":"You
+        might want to check out FUSE for Linux.  There are various programs built
+        on top of it which allow remote filesystems to look exactly like local ones.  Two
+        that I use are curlftpfs and sshfs.  It''s really nice to be able to perform
+        any of my computer''s programs on these remote files, and it looks very similar
+        to what <em>Dropbox</em> accomplishes.  Of course, you would need to have
+        an FTP or SSH login somewhere, but you can get free FTP access from e.g. Lycos,
+        so that shouldn''t be an issue.<p>In short, I guess I''m curious what separates
+        <em>Dropbox</em> from using a free FTP service which is connected either through
+        Windows'' built-in Network Places or Linux''s curlftpfs.  There are obvious
+        differences, but are they enough to warrant fees?"},"story_title":{"fullyHighlighted":false,"matchLevel":"full","matchedWords":["dropbox"],"value":"My
+        YC app: <em>Dropbox</em> - Throw away your USB drive"},"story_url":{"matchLevel":"none","matchedWords":[],"value":"http://www.getdropbox.com/u/2/screencast.html"}},"_tags":["comment","author_BrandonM","story_8863"],"author":"BrandonM","comment_text":"You
+        might want to check out FUSE for Linux.  There are various programs built
+        on top of it which allow remote filesystems to look exactly like local ones.  Two
+        that I use are curlftpfs and sshfs.  It''s really nice to be able to perform
+        any of my computer''s programs on these remote files, and it looks very similar
+        to what Dropbox accomplishes.  Of course, you would need to have an FTP or
+        SSH login somewhere, but you can get free FTP access from e.g. Lycos, so that
+        shouldn''t be an issue.<p>In short, I guess I''m curious what separates Dropbox
+        from using a free FTP service which is connected either through Windows''
+        built-in Network Places or Linux''s curlftpfs.  There are obvious differences,
+        but are they enough to warrant fees?","created_at":"2007-04-05T02:28:51Z","created_at_i":1175740131,"objectID":"9024","parent_id":8884,"story_id":8863,"story_title":"My
+        YC app: Dropbox - Throw away your USB drive","story_url":"http://www.getdropbox.com/u/2/screencast.html","updated_at":"2025-03-21T16:17:59Z"},{"_highlightResult":{"author":{"matchLevel":"none","matchedWords":[],"value":"BrandonM"},"comment_text":{"fullyHighlighted":false,"matchLevel":"full","matchedWords":["dropbox"],"value":"One
+        learns a lot in 8 years, it turns out.<p>To be fair, I was making an argument
+        that it was trivial to replicate, and it was... Ubuntu, Google, Microsoft,
+        and several others did just that. Kudos to <em>Dropbox</em> for their unanticipated
+        (by me, anyway) staying power."},"story_title":{"matchLevel":"none","matchedWords":[],"value":"Show
+        HN: Show HN"},"story_url":{"matchLevel":"none","matchedWords":[],"value":"https://news.ycombinator.com/show"}},"_tags":["comment","author_BrandonM","story_7984826"],"author":"BrandonM","children":[7996394],"comment_text":"One
+        learns a lot in 8 years, it turns out.<p>To be fair, I was making an argument
+        that it was trivial to replicate, and it was... Ubuntu, Google, Microsoft,
+        and several others did just that. Kudos to Dropbox for their unanticipated
+        (by me, anyway) staying power.","created_at":"2014-07-04T09:54:03Z","created_at_i":1404467643,"objectID":"7988051","parent_id":7987015,"story_id":7984826,"story_title":"Show
+        HN: Show HN","story_url":"https://news.ycombinator.com/show","updated_at":"2024-09-19T21:00:39Z"},{"_highlightResult":{"author":{"matchLevel":"none","matchedWords":[],"value":"BrandonM"},"comment_text":{"fullyHighlighted":false,"matchLevel":"full","matchedWords":["dropbox"],"value":"This
+        is inaccurate, isn''t it? The whole point of working in teams is to share
+        files. Any file that is being shared with everyone is being counted against
+        everyone''s space. At least that''s my understanding of how <em>Dropbox</em>
+        works based on sharing a few folders with friends on free accounts."},"story_title":{"fullyHighlighted":false,"matchLevel":"full","matchedWords":["dropbox"],"value":"<em>Dropbox</em>
+        for Teams"},"story_url":{"fullyHighlighted":false,"matchLevel":"full","matchedWords":["dropbox"],"value":"https://www.<em>dropbox</em>.com/teams"}},"_tags":["comment","author_BrandonM","story_3164301"],"author":"BrandonM","children":[3166862],"comment_text":"This
+        is inaccurate, isn''t it? The whole point of working in teams is to share
+        files. Any file that is being shared with everyone is being counted against
+        everyone''s space. At least that''s my understanding of how Dropbox works
+        based on sharing a few folders with friends on free accounts.","created_at":"2011-10-28T00:10:58Z","created_at_i":1319760658,"objectID":"3166239","parent_id":3165081,"story_id":3164301,"story_title":"Dropbox
+        for Teams","story_url":"https://www.dropbox.com/teams","updated_at":"2024-09-19T18:05:29Z"},{"_highlightResult":{"author":{"matchLevel":"none","matchedWords":[],"value":"BrandonM"},"comment_text":{"fullyHighlighted":false,"matchLevel":"full","matchedWords":["dropbox"],"value":"My
+        comment didn''t say that the product was useless, and it certainly didn''t
+        shit on the idea of an online storage solution. In that thread, I was saying
+        that I already had an online storage solution, and it was working pretty well
+        for me. When I said the notorious &quot;quite trivially&quot; phrase, I was
+        in fact predicting that it would be easy for every other tech company to jump
+        on the same boat.<p>Regarding USBs, <em>Dropbox</em>''s messaging at the time
+        was &quot;throw out your USB drives&quot;, and this was before smartphones
+        or ubiquitous dependable network connections. At the time, if I had to give
+        a presentation in a university classroom, <em>Dropbox</em> wasn''t moving
+        the bar much on that particular problem."},"story_title":{"matchLevel":"none","matchedWords":[],"value":"Google
+        is killing unlimited Drive storage for non-enterprise users"},"story_url":{"matchLevel":"none","matchedWords":[],"value":"https://petapixel.com/2020/10/12/google-is-killing-unlimited-drive-storage-for-non-enterprise-users/"}},"_tags":["comment","author_BrandonM","story_24768071"],"author":"BrandonM","children":[24867010],"comment_text":"My
+        comment didn&#x27;t say that the product was useless, and it certainly didn&#x27;t
+        shit on the idea of an online storage solution. In that thread, I was saying
+        that I already had an online storage solution, and it was working pretty well
+        for me. When I said the notorious &quot;quite trivially&quot; phrase, I was
+        in fact predicting that it would be easy for every other tech company to jump
+        on the same boat.<p>Regarding USBs, Dropbox&#x27;s messaging at the time was
+        &quot;throw out your USB drives&quot;, and this was before smartphones or
+        ubiquitous dependable network connections. At the time, if I had to give a
+        presentation in a university classroom, Dropbox wasn&#x27;t moving the bar
+        much on that particular problem.","created_at":"2020-10-14T04:56:02Z","created_at_i":1602651362,"objectID":"24773218","parent_id":24773204,"story_id":24768071,"story_title":"Google
+        is killing unlimited Drive storage for non-enterprise users","story_url":"https://petapixel.com/2020/10/12/google-is-killing-unlimited-drive-storage-for-non-enterprise-users/","updated_at":"2024-09-20T07:10:27Z"},{"_highlightResult":{"author":{"matchLevel":"none","matchedWords":[],"value":"BrandonM"},"comment_text":{"fullyHighlighted":false,"matchLevel":"full","matchedWords":["dropbox"],"value":"I
+        remember using AIM (AOL (America Online) Instant Messenger) and other instant
+        messaging applications for direct peer-to-peer file transfer back in 2002.
+        On fast university connections, you could transfer movies in a few minutes.
+        It''s crazy to me that direct, fast file sharing was easier and more ubiquitous
+        almost 20 years ago than it seems to be now. More context for my oft-misunderstood
+        early feedback to dhouston about <em>Dropbox</em>."},"story_title":{"matchLevel":"none","matchedWords":[],"value":"Ask
+        HN: What is your favorite method of sending large files?"}},"_tags":["comment","author_BrandonM","story_24351111"],"author":"BrandonM","comment_text":"I
+        remember using AIM (AOL (America Online) Instant Messenger) and other instant
+        messaging applications for direct peer-to-peer file transfer back in 2002.
+        On fast university connections, you could transfer movies in a few minutes.
+        It&#x27;s crazy to me that direct, fast file sharing was easier and more ubiquitous
+        almost 20 years ago than it seems to be now. More context for my oft-misunderstood
+        early feedback to dhouston about Dropbox.","created_at":"2020-09-02T22:23:19Z","created_at_i":1599085399,"objectID":"24358896","parent_id":24351111,"story_id":24351111,"story_title":"Ask
+        HN: What is your favorite method of sending large files?","updated_at":"2024-09-20T06:56:16Z"}],"hitsPerPage":5,"nbHits":5,"nbPages":1,"page":0,"params":"query=dropbox&tags=comment%2Cauthor_BrandonM&hitsPerPage=5&page=0&advancedSyntax=true&analyticsTags=backend","processingTimeMS":11,"processingTimingsMS":{"_request":{"roundTrip":14},"afterFetch":{"merge":{"total":1},"total":1},"fetch":{"query":5,"scanning":2,"total":8},"total":11},"query":"dropbox","serverTimeMS":12}
+
+        '
+    headers:
+      Alt-Svc:
+      - h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+      Content-Length:
+      - '9354'
+      access-control-allow-origin:
+      - '*'
+      content-type:
+      - application/json
+      date:
+      - Sun, 15 Feb 2026 18:21:36 GMT
+      server:
+      - Google Frontend
+      via:
+      - 1.1 google
+      x-cloud-trace-context:
+      - 89e5b74284c93450b66ddd7ee39af2f6
+    status:
+      code: 200
+      message: OK
+version: 1

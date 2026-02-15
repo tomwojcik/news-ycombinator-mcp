@@ -1,0 +1,120 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Host:
+      - hn.algolia.com
+      User-Agent:
+      - python-httpx/0.28.1
+    method: GET
+    uri: https://hn.algolia.com/api/v1/search_by_date?query=dropbox&tags=comment&hitsPerPage=5&page=0
+  response:
+    body:
+      string: '{"exhaustive":{"nbHits":false,"typo":false},"exhaustiveNbHits":false,"exhaustiveTypo":false,"hits":[{"_highlightResult":{"author":{"matchLevel":"none","matchedWords":[],"value":"masklinn"},"comment_text":{"fullyHighlighted":false,"matchLevel":"full","matchedWords":["dropbox"],"value":"It\u2019s
+        a bit odd that the accordion uses details but the <em>dropdow</em>ns require
+        a custom element."},"story_title":{"matchLevel":"none","matchedWords":[],"value":"Oat
+        \u2013 Ultra-lightweight, semantic, zero-dependency HTML UI component library"},"story_url":{"matchLevel":"none","matchedWords":[],"value":"https://oat.ink/"}},"_tags":["comment","author_masklinn","story_47021980"],"author":"masklinn","comment_text":"It\u2019s
+        a bit odd that the accordion uses details but the dropdowns require a custom
+        element.","created_at":"2026-02-15T15:44:07Z","created_at_i":1771170247,"objectID":"47024583","parent_id":47021980,"story_id":47021980,"story_title":"Oat
+        \u2013 Ultra-lightweight, semantic, zero-dependency HTML UI component library","story_url":"https://oat.ink/","updated_at":"2026-02-15T15:47:42Z"},{"_highlightResult":{"author":{"matchLevel":"none","matchedWords":[],"value":"gruez"},"comment_text":{"fullyHighlighted":false,"matchLevel":"full","matchedWords":["dropbox"],"value":"Where''s
+        the analogy breaks down is that AI isn''t producing verbatim copies. There''s
+        no expectation that <em>dropbox</em> should be protected from clones, for
+        instance."},"story_title":{"matchLevel":"none","matchedWords":[],"value":"AI
+        is going to kill app subscriptions"},"story_url":{"matchLevel":"none","matchedWords":[],"value":"https://nichehunt.app/blog/ai-going-to-kill-app-subscriptions"}},"_tags":["comment","author_gruez","story_47024387"],"author":"gruez","comment_text":"Where&#x27;s
+        the analogy breaks down is that AI isn&#x27;t producing verbatim copies. There&#x27;s
+        no expectation that dropbox should be protected from clones, for instance.","created_at":"2026-02-15T15:40:57Z","created_at_i":1771170057,"objectID":"47024546","parent_id":47024424,"story_id":47024387,"story_title":"AI
+        is going to kill app subscriptions","story_url":"https://nichehunt.app/blog/ai-going-to-kill-app-subscriptions","updated_at":"2026-02-15T15:42:27Z"},{"_highlightResult":{"author":{"matchLevel":"none","matchedWords":[],"value":"kibwen"},"comment_text":{"fullyHighlighted":false,"matchLevel":"full","matchedWords":["dropbox"],"value":"<i>&gt;
+        Major parts of Windows and Office were being written in C++ in the early-mid
+        90s, before C++ turned 10.</i><p>Major parts of Windows, Android, and Linux
+        were being written in Rust before it turned 10. Major parts of AWS were being
+        written in Rust before it turned 4. Major parts of <em>Dropbox</em> were being
+        written in Rust before it turned 1. So you agree by your own criteria that
+        Rust is a major language?<p><i>&gt; While it kept growing in popularity later,
+        by 1983-5 C was already one of the top programming langugages in the world.</i><p>In
+        the mid-80s, C still had plenty of major and healthy competitors, as pjmlp
+        will imminently arrive to remind you. By the criteria of mid-80s C, Rust is
+        already one of the top programming languages in the world.<p><i>&gt; AJAX
+        (popularised by Gmail) pretty much revolutionised the web in 2004. When jQuery
+        came out in 2006, JS was all over the place.</i><p>No, despite the existence
+        and availability of freestanding interpreters (e.g. Rhino), Javascript was
+        an also-ran everywhere <i>except</i> the web; which is to say, nobody was
+        choosing to use Javascript except the people forced at gunpoint to use it.
+        There are infinitely more people choosing to use Rust at the age of 11 than
+        were choosing to use Javascript at the age of 11, which means that, once again,
+        by your criteria, you must consider Rust a major language. You can just admit
+        it instead of being a tsundere."},"story_title":{"matchLevel":"none","matchedWords":[],"value":"Zig
+        \u2013 io_uring and Grand Central Dispatch std.Io implementations landed"},"story_url":{"matchLevel":"none","matchedWords":[],"value":"https://ziglang.org/devlog/2026/#2026-02-13"}},"_tags":["comment","author_kibwen","story_47012717"],"author":"kibwen","comment_text":"<i>&gt;
+        Major parts of Windows and Office were being written in C++ in the early-mid
+        90s, before C++ turned 10.</i><p>Major parts of Windows, Android, and Linux
+        were being written in Rust before it turned 10. Major parts of AWS were being
+        written in Rust before it turned 4. Major parts of Dropbox were being written
+        in Rust before it turned 1. So you agree by your own criteria that Rust is
+        a major language?<p><i>&gt; While it kept growing in popularity later, by
+        1983-5 C was already one of the top programming langugages in the world.</i><p>In
+        the mid-80s, C still had plenty of major and healthy competitors, as pjmlp
+        will imminently arrive to remind you. By the criteria of mid-80s C, Rust is
+        already one of the top programming languages in the world.<p><i>&gt; AJAX
+        (popularised by Gmail) pretty much revolutionised the web in 2004. When jQuery
+        came out in 2006, JS was all over the place.</i><p>No, despite the existence
+        and availability of freestanding interpreters (e.g. Rhino), Javascript was
+        an also-ran everywhere <i>except</i> the web; which is to say, nobody was
+        choosing to use Javascript except the people forced at gunpoint to use it.
+        There are infinitely more people choosing to use Rust at the age of 11 than
+        were choosing to use Javascript at the age of 11, which means that, once again,
+        by your criteria, you must consider Rust a major language. You can just admit
+        it instead of being a tsundere.","created_at":"2026-02-15T14:24:40Z","created_at_i":1771165480,"objectID":"47023915","parent_id":47020183,"story_id":47012717,"story_title":"Zig
+        \u2013 io_uring and Grand Central Dispatch std.Io implementations landed","story_url":"https://ziglang.org/devlog/2026/#2026-02-13","updated_at":"2026-02-15T15:27:26Z"},{"_highlightResult":{"author":{"matchLevel":"none","matchedWords":[],"value":"markus_zhang"},"comment_text":{"fullyHighlighted":false,"matchLevel":"full","matchedWords":["dropbox"],"value":"They
+        invested huge amount of resources to make sure it is backward compatible in
+        NT, to the disagreement of David Cutler. There is a NTVDM extended with WoW
+        for Windows 16-bit, AFAIK. I have a copy of leaked source code of NT 3.5 but
+        I''m not good enough to understand the code. Also probably modern VMs such
+        as <em>DOSBOX</em> do a better job emulating 16-bit stuffs."},"story_title":{"matchLevel":"none","matchedWords":[],"value":"Windows
+        NT/OS2 Design Workbook"},"story_url":{"matchLevel":"none","matchedWords":[],"value":"https://computernewb.com/~lily/files/Documents/NTDesignWorkbook/"}},"_tags":["comment","author_markus_zhang","story_46968641"],"author":"markus_zhang","comment_text":"They
+        invested huge amount of resources to make sure it is backward compatible in
+        NT, to the disagreement of David Cutler. There is a NTVDM extended with WoW
+        for Windows 16-bit, AFAIK. I have a copy of leaked source code of NT 3.5 but
+        I&#x27;m not good enough to understand the code. Also probably modern VMs
+        such as DOSBOX do a better job emulating 16-bit stuffs.","created_at":"2026-02-15T13:44:31Z","created_at_i":1771163071,"objectID":"47023603","parent_id":47023420,"story_id":46968641,"story_title":"Windows
+        NT/OS2 Design Workbook","story_url":"https://computernewb.com/~lily/files/Documents/NTDesignWorkbook/","updated_at":"2026-02-15T13:47:11Z"},{"_highlightResult":{"author":{"matchLevel":"none","matchedWords":[],"value":"1313ed01"},"comment_text":{"fullyHighlighted":false,"matchLevel":"full","matchedWords":["dropbox"],"value":"I
+        use TUIs almost daily on my android phone, either some Linux application in
+        Termux or a DOS application in <em>DOSBox</em>. Both have some extra on screen
+        controls to add special keys, and <em>DOSBox</em> in particular allows adding
+        widgets to control things (including invisible buttons, that are fun to add
+        in some cases over parts of the screen in DOS to give an old game or application
+        touch controls)."},"story_title":{"matchLevel":"none","matchedWords":[],"value":"Building
+        a TUI is easy now"},"story_url":{"matchLevel":"none","matchedWords":[],"value":"https://hatchet.run/blog/tuis-are-easy-now"}},"_tags":["comment","author_1313ed01","story_47005509"],"author":"1313ed01","children":[47020888],"comment_text":"I
+        use TUIs almost daily on my android phone, either some Linux application in
+        Termux or a DOS application in DOSBox. Both have some extra on screen controls
+        to add special keys, and DOSBox in particular allows adding widgets to control
+        things (including invisible buttons, that are fun to add in some cases over
+        parts of the screen in DOS to give an old game or application touch controls).","created_at":"2026-02-14T20:42:21Z","created_at_i":1771101741,"objectID":"47018185","parent_id":47007659,"story_id":47005509,"story_title":"Building
+        a TUI is easy now","story_url":"https://hatchet.run/blog/tuis-are-easy-now","updated_at":"2026-02-15T03:54:09Z"}],"hitsPerPage":5,"nbHits":37180,"nbPages":200,"page":0,"params":"query=dropbox&tags=comment&hitsPerPage=5&page=0&advancedSyntax=true&analyticsTags=backend","processingTimeMS":13,"processingTimingsMS":{"_request":{"roundTrip":13},"fetch":{"query":4,"scanning":8,"total":13},"total":14},"query":"dropbox","serverTimeMS":14}
+
+        '
+    headers:
+      Alt-Svc:
+      - h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+      Content-Length:
+      - '9330'
+      access-control-allow-origin:
+      - '*'
+      content-type:
+      - application/json
+      date:
+      - Sun, 15 Feb 2026 16:07:54 GMT
+      server:
+      - Google Frontend
+      via:
+      - 1.1 google
+      x-cloud-trace-context:
+      - 43f531a1bf4ab6b52cc32042b1ddb1dc
+    status:
+      code: 200
+      message: OK
+version: 1

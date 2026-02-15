@@ -1,0 +1,170 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Host:
+      - hn.algolia.com
+      User-Agent:
+      - python-httpx/0.28.1
+    method: GET
+    uri: https://hn.algolia.com/api/v1/search?query=dropbox&tags=comment%2Cstory_8863&hitsPerPage=5&page=0
+  response:
+    body:
+      string: '{"exhaustive":{"nbHits":false,"typo":false},"exhaustiveNbHits":false,"exhaustiveTypo":false,"hits":[{"_highlightResult":{"author":{"matchLevel":"none","matchedWords":[],"value":"Tichy"},"comment_text":{"fullyHighlighted":false,"matchLevel":"full","matchedWords":["dropbox"],"value":"Maybe,
+        but the encryption is entirely in the hands of the client application that
+        <em>dropbox</em> provides (I suppose it is not open source), so it is still
+        a matter of faith."},"story_title":{"fullyHighlighted":false,"matchLevel":"full","matchedWords":["dropbox"],"value":"My
+        YC app: <em>Dropbox</em> - Throw away your USB drive"},"story_url":{"matchLevel":"none","matchedWords":[],"value":"http://www.getdropbox.com/u/2/screencast.html"}},"_tags":["comment","author_Tichy","story_8863"],"author":"Tichy","comment_text":"Maybe,
+        but the encryption is entirely in the hands of the client application that
+        dropbox provides (I suppose it is not open source), so it is still a matter
+        of faith.","created_at":"2007-04-06T20:33:28Z","created_at_i":1175891608,"objectID":"9707","parent_id":8889,"story_id":8863,"story_title":"My
+        YC app: Dropbox - Throw away your USB drive","story_url":"http://www.getdropbox.com/u/2/screencast.html","updated_at":"2024-09-19T16:18:45Z"},{"_highlightResult":{"author":{"matchLevel":"none","matchedWords":[],"value":"dhouston"},"comment_text":{"fullyHighlighted":false,"matchLevel":"full","matchedWords":["dropbox"],"value":"1.
+        re: the first part, many people want something plug and play. and even if
+        they were plug and play, the problem is that the user experience (on windows
+        at least) with online drives generally sucks, and you don''t have disconnected
+        access.<p>windows for sure doesn''t hide latency well (CIFS is bad, webdav
+        etc. are worse), and most apps are written as if the disk was local, and assume,
+        for example, accessing a file only takes a few ms. if the server is 80ms away,
+        and you do 100 accesses (e.g. the open file common dialog listing a directory
+        and poking files for various attributes or icons) serially, suddenly your
+        UI locks up for _seconds_ (joel spolsky summarizes this well in his article
+        on leaky abstractions.) ditto saving any file; you change one character in
+        your 20mb word file and hit save, and your upstream-capped 40k/sec comcast
+        connection is hosed for 8 minutes. sure for docs of a few hundred k it''s
+        fine, but doing work on large docs on an online drive feels like walking around
+        with cinder blocks tied to your feet. anyway, the point of that rant was that
+        <em>dropbox</em> uses a _local_ folder with efficient sync in the background,
+        which is an important difference :)<p>2. true, if you''re both not at your
+        computer and on another computer without net access, this won''t replace a
+        usb drive :) but the case i''m worried about is being, for example, on a plane,
+        and <em>dropbox</em> will let you get to the most recent version of your docs
+        at the time you were last connected, and will sync everything up when you
+        get back online (without you having to copy anything or really do anything.)<p>3.
+        there are some unannounced viral parts i didn''t get to show in there :) it''ll
+        be a freemium model. up to x gb free, tiered plans above that."},"story_title":{"fullyHighlighted":false,"matchLevel":"full","matchedWords":["dropbox"],"value":"My
+        YC app: <em>Dropbox</em> - Throw away your USB drive"},"story_url":{"matchLevel":"none","matchedWords":[],"value":"http://www.getdropbox.com/u/2/screencast.html"}},"_tags":["comment","author_dhouston","story_8863"],"author":"dhouston","children":[9479],"comment_text":"1.
+        re: the first part, many people want something plug and play. and even if
+        they were plug and play, the problem is that the user experience (on windows
+        at least) with online drives generally sucks, and you don''t have disconnected
+        access.<p>windows for sure doesn''t hide latency well (CIFS is bad, webdav
+        etc. are worse), and most apps are written as if the disk was local, and assume,
+        for example, accessing a file only takes a few ms. if the server is 80ms away,
+        and you do 100 accesses (e.g. the open file common dialog listing a directory
+        and poking files for various attributes or icons) serially, suddenly your
+        UI locks up for _seconds_ (joel spolsky summarizes this well in his article
+        on leaky abstractions.) ditto saving any file; you change one character in
+        your 20mb word file and hit save, and your upstream-capped 40k/sec comcast
+        connection is hosed for 8 minutes. sure for docs of a few hundred k it''s
+        fine, but doing work on large docs on an online drive feels like walking around
+        with cinder blocks tied to your feet. anyway, the point of that rant was that
+        dropbox uses a _local_ folder with efficient sync in the background, which
+        is an important difference :)<p>2. true, if you''re both not at your computer
+        and on another computer without net access, this won''t replace a usb drive
+        :) but the case i''m worried about is being, for example, on a plane, and
+        dropbox will let you get to the most recent version of your docs at the time
+        you were last connected, and will sync everything up when you get back online
+        (without you having to copy anything or really do anything.)<p>3. there are
+        some unannounced viral parts i didn''t get to show in there :) it''ll be a
+        freemium model. up to x gb free, tiered plans above that.","created_at":"2007-04-05T16:47:01Z","created_at_i":1175791621,"objectID":"9272","parent_id":9224,"story_id":8863,"story_title":"My
+        YC app: Dropbox - Throw away your USB drive","story_url":"http://www.getdropbox.com/u/2/screencast.html","updated_at":"2026-01-26T02:24:37Z"},{"_highlightResult":{"author":{"matchLevel":"none","matchedWords":[],"value":"JMiao"},"comment_text":{"fullyHighlighted":false,"matchLevel":"full","matchedWords":["dropbox"],"value":"\"Your
+        <em>Drop Box</em> is a File Cabinet that Follows You Around Everywhere You
+        Want to Go, Across Your Computers, or Across The Country.\"<p>Ladies & Gentlemen,
+        the WORLD''S LIGHTEST FILE CABINET.  Great for cross-country roadtrips!  =)"},"story_title":{"fullyHighlighted":false,"matchLevel":"full","matchedWords":["dropbox"],"value":"My
+        YC app: <em>Dropbox</em> - Throw away your USB drive"},"story_url":{"matchLevel":"none","matchedWords":[],"value":"http://www.getdropbox.com/u/2/screencast.html"}},"_tags":["comment","author_JMiao","story_8863"],"author":"JMiao","comment_text":"\"Your
+        Drop Box is a File Cabinet that Follows You Around Everywhere You Want to
+        Go, Across Your Computers, or Across The Country.\"<p>Ladies & Gentlemen,
+        the WORLD''S LIGHTEST FILE CABINET.  Great for cross-country roadtrips!  =)","created_at":"2007-04-05T15:50:06Z","created_at_i":1175788206,"objectID":"9235","parent_id":9153,"story_id":8863,"story_title":"My
+        YC app: Dropbox - Throw away your USB drive","story_url":"http://www.getdropbox.com/u/2/screencast.html","updated_at":"2024-09-19T16:18:45Z"},{"_highlightResult":{"author":{"matchLevel":"none","matchedWords":[],"value":"vlad"},"comment_text":{"fullyHighlighted":false,"matchLevel":"full","matchedWords":["dropbox"],"value":"What
+        about this on the download page (also good for a press release.)<p><em>Drop
+        Box</em>:  Automatically safeguards even your biggest worries, so you don''t
+        have any!<p>What is a <em>Drop Box</em>?<p>Your <em>Drop Box</em> is a File
+        Cabinet that Follows You Around Everywhere You Want to Go, Across Your Computers,
+        or Across The Country.<p>Download and start using it today. (link goes here.)<p>Your
+        <em>Drop Box</em> includes your own Secretary who Files and Photocopies Every
+        Document You Make or Edit, So You Can See What Each Document Looked Like Yesterday,
+        Two Days Ago, or at Any Point In Time.  Did I Mention the Secretary and the
+        File Cabinet are Fire-Proof and Wireless?<p>But, it''s all digital.  And,
+        it''s secure.  And it''s built to work between as many Windows desktops or
+        laptop computer you use at NO EXTRA COST!  See for yourself! (another link
+        to the download.)<p>Or, access your files at work from a web-based interface!  It''s
+        so flexible!<p>Q: Do I have to change how I work?<p>A: Absolutely not.  Any
+        file and folder (Word documents, spreadsheets, family photos, etc) you add
+        to your <em>Drop Box</em> folder is automatically synchronized and saved remotely.<p>Q:
+        What is the <em>Drop Box</em> folder?<p>A: It''s just a special folder which
+        will appear on your computer.  Anything added to it is automatically saved,
+        synchronized, and \"dated\" so you can go back in time!<p>Try it now! (another
+        download link)  It''s safe, it''s free, and you can use it on as many computers
+        to share, backup, and keep archived file versions on, as you need to, by registering
+        for just one account!"},"story_title":{"fullyHighlighted":false,"matchLevel":"full","matchedWords":["dropbox"],"value":"My
+        YC app: <em>Dropbox</em> - Throw away your USB drive"},"story_url":{"matchLevel":"none","matchedWords":[],"value":"http://www.getdropbox.com/u/2/screencast.html"}},"_tags":["comment","author_vlad","story_8863"],"author":"vlad","children":[9235],"comment_text":"What
+        about this on the download page (also good for a press release.)<p>Drop Box:  Automatically
+        safeguards even your biggest worries, so you don''t have any!<p>What is a
+        Drop Box?<p>Your Drop Box is a File Cabinet that Follows You Around Everywhere
+        You Want to Go, Across Your Computers, or Across The Country.<p>Download and
+        start using it today. (link goes here.)<p>Your Drop Box includes your own
+        Secretary who Files and Photocopies Every Document You Make or Edit, So You
+        Can See What Each Document Looked Like Yesterday, Two Days Ago, or at Any
+        Point In Time.  Did I Mention the Secretary and the File Cabinet are Fire-Proof
+        and Wireless?<p>But, it''s all digital.  And, it''s secure.  And it''s built
+        to work between as many Windows desktops or laptop computer you use at NO
+        EXTRA COST!  See for yourself! (another link to the download.)<p>Or, access
+        your files at work from a web-based interface!  It''s so flexible!<p>Q: Do
+        I have to change how I work?<p>A: Absolutely not.  Any file and folder (Word
+        documents, spreadsheets, family photos, etc) you add to your Drop Box folder
+        is automatically synchronized and saved remotely.<p>Q: What is the Drop Box
+        folder?<p>A: It''s just a special folder which will appear on your computer.  Anything
+        added to it is automatically saved, synchronized, and \"dated\" so you can
+        go back in time!<p>Try it now! (another download link)  It''s safe, it''s
+        free, and you can use it on as many computers to share, backup, and keep archived
+        file versions on, as you need to, by registering for just one account!","created_at":"2007-04-05T11:48:41Z","created_at_i":1175773721,"objectID":"9153","parent_id":8952,"story_id":8863,"story_title":"My
+        YC app: Dropbox - Throw away your USB drive","story_url":"http://www.getdropbox.com/u/2/screencast.html","updated_at":"2024-09-19T16:18:45Z"},{"_highlightResult":{"author":{"matchLevel":"none","matchedWords":[],"value":"vlad"},"comment_text":{"fullyHighlighted":false,"matchLevel":"full","matchedWords":["dropbox"],"value":"+1
+        on being able to specify a folder inside the <em>dropbox</em> as a \"server\"
+        folder, which means it has it''s own ftp address, user, and password settings.  Anything
+        dragged there is automatically synched with that account.  I thought of this
+        as well as soon as I read that post about Linux support, as this would work
+        with shared hosting without expecting hosts to install <em>dropbox</em> on
+        their linux boxes.  And the data would be backed up as well automatically
+        in a third place (the drop box.)  And, you''d have access to retrieve an older
+        version of a file.  This basically replaces the need for FTP clients if you
+        also add a way to chmod the folders inside the \"server\" folder.  Sam is
+        100% right."},"story_title":{"fullyHighlighted":false,"matchLevel":"full","matchedWords":["dropbox"],"value":"My
+        YC app: <em>Dropbox</em> - Throw away your USB drive"},"story_url":{"matchLevel":"none","matchedWords":[],"value":"http://www.getdropbox.com/u/2/screencast.html"}},"_tags":["comment","author_vlad","story_8863"],"author":"vlad","comment_text":"+1
+        on being able to specify a folder inside the dropbox as a \"server\" folder,
+        which means it has it''s own ftp address, user, and password settings.  Anything
+        dragged there is automatically synched with that account.  I thought of this
+        as well as soon as I read that post about Linux support, as this would work
+        with shared hosting without expecting hosts to install dropbox on their linux
+        boxes.  And the data would be backed up as well automatically in a third place
+        (the drop box.)  And, you''d have access to retrieve an older version of a
+        file.  This basically replaces the need for FTP clients if you also add a
+        way to chmod the folders inside the \"server\" folder.  Sam is 100% right.","created_at":"2007-04-05T11:41:56Z","created_at_i":1175773316,"objectID":"9151","parent_id":9081,"story_id":8863,"story_title":"My
+        YC app: Dropbox - Throw away your USB drive","story_url":"http://www.getdropbox.com/u/2/screencast.html","updated_at":"2024-09-19T16:18:45Z"}],"hitsPerPage":5,"nbHits":18,"nbPages":4,"page":0,"params":"query=dropbox&tags=comment%2Cstory_8863&hitsPerPage=5&page=0&advancedSyntax=true&analyticsTags=backend","processingTimeMS":7,"processingTimingsMS":{"_request":{"roundTrip":21},"fetch":{"query":5,"total":6},"total":7},"query":"dropbox","serverTimeMS":8}
+
+        '
+    headers:
+      Alt-Svc:
+      - h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+      Content-Length:
+      - '13319'
+      access-control-allow-origin:
+      - '*'
+      content-type:
+      - application/json
+      date:
+      - Sun, 15 Feb 2026 16:07:54 GMT
+      server:
+      - Google Frontend
+      via:
+      - 1.1 google
+      x-cloud-trace-context:
+      - c738ad16315939559811133845e4b66d
+    status:
+      code: 200
+      message: OK
+version: 1

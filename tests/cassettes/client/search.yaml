@@ -1,0 +1,52 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Host:
+      - hn.algolia.com
+      User-Agent:
+      - python-httpx/0.28.1
+    method: GET
+    uri: https://hn.algolia.com/api/v1/search?query=Dropbox&tags=story&hitsPerPage=5
+  response:
+    body:
+      string: '{"exhaustive":{"nbHits":false,"typo":false},"exhaustiveNbHits":false,"exhaustiveTypo":false,"hits":[{"_highlightResult":{"author":{"matchLevel":"none","matchedWords":[],"value":"PhilipA"},"title":{"fullyHighlighted":false,"matchLevel":"full","matchedWords":["dropbox"],"value":"Drop
+        <em>Dropbox</em>"},"url":{"fullyHighlighted":false,"matchLevel":"full","matchedWords":["dropbox"],"value":"http://www.drop-<em>dropbox</em>.com/"}},"_tags":["story","author_PhilipA","story_7566069"],"author":"PhilipA","children":[7566128,7566141,7566146,7566157,7566158,7566162,7566163,7566170,7566182,7566183,7566184,7566187,7566197,7566200,7566219,7566220,7566221,7566225,7566228,7566238,7566243,7566244,7566247,7566256,7566264,7566268,7566269,7566271,7566281,7566286,7566290,7566295,7566311,7566318,7566323,7566343,7566359,7566360,7566385,7566400,7566402,7566405,7566410,7566417,7566418,7566423,7566433,7566437,7566454,7566466,7566467,7566468,7566498,7566502,7566517,7566530,7566532,7566536,7566576,7566599,7566625,7566636,7566641,7566646,7566668,7566680,7566716,7566724,7566735,7566756,7566760,7566820,7566843,7566852,7566858,7566872,7566892,7566899,7566907,7566911,7566948,7566958,7566978,7566985,7566986,7566994,7566996,7567009,7567051,7567054,7567059,7567060,7567077,7567100,7567105,7567112,7567118,7567135,7567136,7567179,7567209,7567215,7567220,7567225,7567250,7567269,7567275,7567279,7567280,7567299,7567305,7567307,7567335,7567359,7567370,7567374,7567384,7567403,7567407,7567411,7567449,7567469,7567482,7567489,7567491,7567494,7567501,7567504,7567520,7567532,7567551,7567568,7567572,7567577,7567586,7567626,7567630,7567649,7567700,7567719,7567736,7567762,7567770,7567798,7567806,7567815,7567818,7567894,7567965,7567968,7567996,7568033,7568046,7568063,7568072,7568094,7568095,7568109,7568127,7568151,7568183,7568250,7568274,7568275,7568321,7568479,7568515,7568558,7568585,7568711,7568877,7568926,7569034,7569090,7569210,7569322,7569382,7569420,7569527,7569581,7569679,7569701,7569798,7569914,7570070,7570163,7570321,7570789,7570826,7575248],"created_at":"2014-04-10T13:56:46Z","created_at_i":1397138206,"num_comments":1008,"objectID":"7566069","points":1990,"story_id":7566069,"title":"Drop
+        Dropbox","updated_at":"2025-12-27T06:54:27Z","url":"http://www.drop-dropbox.com/"},{"_highlightResult":{"author":{"matchLevel":"none","matchedWords":[],"value":"runesoerensen"},"title":{"fullyHighlighted":false,"matchLevel":"full","matchedWords":["dropbox"],"value":"Congrats
+        <em>Dropbox</em>"},"url":{"matchLevel":"none","matchedWords":[],"value":"https://blog.ycombinator.com/congratsdropbox/"}},"_tags":["story","author_runesoerensen","story_16659180"],"author":"runesoerensen","children":[16659385,16659396,16659430,16659508,16659511,16659521,16659547,16659565,16659567,16659583,16659614,16659632,16659654,16659664,16659671,16659687,16659737,16659740,16659917,16659953,16659960,16660087,16660140,16660209,16660297,16660327,16660403,16660554,16660717,16660951,16660955,16661243,16661340,16661390,16661573,16662086,16662103,16662411,16662429,16662443,16662646,16662656,16663141,16663166,16663280,16663343,16663404,16664047,16664107,16664289,16664329,16664348,16664720,16665038,16665086,16682055],"created_at":"2018-03-23T15:38:03Z","created_at_i":1521819483,"num_comments":264,"objectID":"16659180","points":1543,"story_id":16659180,"title":"Congrats
+        Dropbox","updated_at":"2025-11-05T21:41:50Z","url":"https://blog.ycombinator.com/congratsdropbox/"},{"_highlightResult":{"author":{"matchLevel":"none","matchedWords":[],"value":"joshschreuder"},"title":{"fullyHighlighted":false,"matchLevel":"full","matchedWords":["dropbox"],"value":"The
+        <em>Dropbox</em> hack is real"},"url":{"fullyHighlighted":false,"matchLevel":"full","matchedWords":["dropbox"],"value":"https://www.troyhunt.com/the-<em>dropbox</em>-hack-is-real"}},"_tags":["story","author_joshschreuder","story_12396331"],"author":"joshschreuder","children":[12396395,12396457,12396470,12396477,12396486,12396522,12396529,12396536,12396543,12396555,12396578,12396593,12396708,12396750,12396800,12396830,12396961,12397020,12397508,12397572,12397626,12397979,12398196,12398291,12398307,12398995,12399111,12399827,12400042,12400495,12400625,12401810,12402124,12402252,12403071,12403167,12403193,12403586,12403834,12410066,12410067,12412466,12417914],"created_at":"2016-08-31T06:13:10Z","created_at_i":1472623990,"num_comments":539,"objectID":"12396331","points":1313,"story_id":12396331,"title":"The
+        Dropbox hack is real","updated_at":"2025-09-21T20:52:36Z","url":"https://www.troyhunt.com/the-dropbox-hack-is-real"},{"_highlightResult":{"author":{"matchLevel":"none","matchedWords":[],"value":"8bitben"},"title":{"fullyHighlighted":false,"matchLevel":"full","matchedWords":["dropbox"],"value":"How
+        <em>Dropbox</em> Hacks Your Mac"},"url":{"fullyHighlighted":false,"matchLevel":"full","matchedWords":["dropbox"],"value":"http://applehelpwriter.com/2016/08/29/discovering-how-<em>dropbox</em>-hacks-your-mac/"}},"_tags":["story","author_8bitben","story_12463338"],"author":"8bitben","children":[12463585,12463596,12463662,12463685,12463720,12463733,12463741,12463757,12463802,12463849,12463925,12464014,12464018,12464087,12464088,12464238,12464250,12464573,12464730,12464832,12464925,12464954,12465083,12465389,12465697,12465792,12466017,12466125,12466129,12466235,12466253,12466304,12466406,12466821,12466925,12467149,12467355,12467771,12467965,12468077,12468186,12468441,12469287,12469404,12469719,12471064,12478173,12510096],"created_at":"2016-09-09T15:52:55Z","created_at_i":1473436375,"num_comments":412,"objectID":"12463338","points":1037,"story_id":12463338,"title":"How
+        Dropbox Hacks Your Mac","updated_at":"2025-12-26T11:22:38Z","url":"http://applehelpwriter.com/2016/08/29/discovering-how-dropbox-hacks-your-mac/"},{"_highlightResult":{"author":{"matchLevel":"none","matchedWords":[],"value":"driverdan"},"title":{"fullyHighlighted":false,"matchLevel":"full","matchedWords":["dropbox"],"value":"<em>Dropbox</em>
+        Attempts To Kill Open Source Project"},"url":{"fullyHighlighted":false,"matchLevel":"full","matchedWords":["dropbox"],"value":"http://razorfast.com/2011/04/25/<em>dropbox</em>-attempts-to-kill-open-source-project/"}},"_tags":["story","author_driverdan","story_2482712"],"author":"driverdan","children":[2482756,2482762,2482769,2482770,2482784,2482788,2482790,2482803,2482807,2482813,2482823,2482831,2482832,2482847,2482854,2482857,2482868,2482873,2482903,2482935,2482938,2482953,2482964,2483023,2483041,2483053,2483067,2483069,2483070,2483251,2483289,2483335,2483349,2483602,2483653,2483690,2483785,2483831,2483884,2483898,2484181,2484401,2484542,2484544,2484820,2485682,2488054],"created_at":"2011-04-25T20:15:11Z","created_at_i":1303762511,"num_comments":292,"objectID":"2482712","points":886,"story_id":2482712,"title":"Dropbox
+        Attempts To Kill Open Source Project","updated_at":"2024-09-19T17:44:01Z","url":"http://razorfast.com/2011/04/25/dropbox-attempts-to-kill-open-source-project/"}],"hitsPerPage":5,"nbHits":6989,"nbPages":200,"page":0,"params":"query=Dropbox&tags=story&hitsPerPage=5&advancedSyntax=true&analyticsTags=backend","processingTimeMS":12,"processingTimingsMS":{"_request":{"queue":1,"roundTrip":20},"fetch":{"query":6,"scanning":4,"total":11},"total":12},"query":"Dropbox","serverTimeMS":13}
+
+        '
+    headers:
+      Alt-Svc:
+      - h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+      Content-Length:
+      - '7275'
+      access-control-allow-origin:
+      - '*'
+      content-type:
+      - application/json
+      date:
+      - Sun, 15 Feb 2026 16:07:47 GMT
+      server:
+      - Google Frontend
+      via:
+      - 1.1 google
+      x-cloud-trace-context:
+      - 66d02abf50df4f8f951876761a736e6d
+    status:
+      code: 200
+      message: OK
+version: 1

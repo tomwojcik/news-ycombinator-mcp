@@ -1,0 +1,119 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Host:
+      - hn.algolia.com
+      User-Agent:
+      - python-httpx/0.28.1
+    method: GET
+    uri: https://hn.algolia.com/api/v1/search?query=dropbox&tags=comment&hitsPerPage=5&page=0
+  response:
+    body:
+      string: '{"exhaustive":{"nbHits":false,"typo":false},"exhaustiveNbHits":false,"exhaustiveTypo":false,"hits":[{"_highlightResult":{"author":{"matchLevel":"none","matchedWords":[],"value":"jayhuang"},"comment_text":{"fullyHighlighted":false,"matchLevel":"full","matchedWords":["dropbox"],"value":"Location:
+        Vancouver, Canada<p>Remote: Yes<p>Willing to relocate: Yes<p>Technologies:
+        HTML(5), CSS(3), Javascript (jQuery, Backbone.js, Angular.js), LESS/SASS,
+        Git/SVN, Bower, Grunt, Protractor/Selenium, PHP (CakePHP, CodeIgniter, SlimPHP),
+        Java, RESTful APIs, MongoDB, MySQL, MSSQL, Oracle, HANA<p>Focus on web development
+        technologies, with experience on both the front and back-end. More recently
+        focusing on front-end work; having users happy to interact with something
+        I''ve built is what keeps me motivated.<p>Most recent project has been architecting
+        and leading a team of 12 developers to build a next generation SaaS crowdfunding
+        platform with a front-end built in AngularJS.<p>Resume: <a href=\"https://www.dropbox.com/s/db29lpydd6ag6uo/Jay%20Huang%20-%20Resume.pdf?dl=0\"
+        rel=\"nofollow\">https://www.<em>dropbox</em>.com/s/db29lpydd6ag6uo/Jay%20Huang%20-%20...</a><p>Email:
+        See resume"},"story_title":{"matchLevel":"none","matchedWords":[],"value":"Ask
+        HN: Who wants to be hired? (August 2015)"}},"_tags":["comment","author_jayhuang","story_9996335"],"author":"jayhuang","comment_text":"Location:
+        Vancouver, Canada<p>Remote: Yes<p>Willing to relocate: Yes<p>Technologies:
+        HTML(5), CSS(3), Javascript (jQuery, Backbone.js, Angular.js), LESS&#x2F;SASS,
+        Git&#x2F;SVN, Bower, Grunt, Protractor&#x2F;Selenium, PHP (CakePHP, CodeIgniter,
+        SlimPHP), Java, RESTful APIs, MongoDB, MySQL, MSSQL, Oracle, HANA<p>Focus
+        on web development technologies, with experience on both the front and back-end.
+        More recently focusing on front-end work; having users happy to interact with
+        something I&#x27;ve built is what keeps me motivated.<p>Most recent project
+        has been architecting and leading a team of 12 developers to build a next
+        generation SaaS crowdfunding platform with a front-end built in AngularJS.<p>Resume:
+        <a href=\"https:&#x2F;&#x2F;www.dropbox.com&#x2F;s&#x2F;db29lpydd6ag6uo&#x2F;Jay%20Huang%20-%20Resume.pdf?dl=0\"
+        rel=\"nofollow\">https:&#x2F;&#x2F;www.dropbox.com&#x2F;s&#x2F;db29lpydd6ag6uo&#x2F;Jay%20Huang%20-%20...</a><p>Email:
+        See resume","created_at":"2015-08-03T20:27:08Z","created_at_i":1438633628,"objectID":"9999528","parent_id":9996335,"points":null,"story_id":9996335,"story_title":"Ask
+        HN: Who wants to be hired? (August 2015)","updated_at":"2023-09-07T03:22:05Z"},{"_highlightResult":{"author":{"matchLevel":"none","matchedWords":[],"value":"louisswiss"},"comment_text":{"fullyHighlighted":false,"matchLevel":"full","matchedWords":["dropbox"],"value":"true
+        (I''m assuming)...<p>I guess it depends whether we''re talking about start-ups
+        or small businesses/hobby projects.<p>I don''t think I''ve heard of any start-ups
+        which were sustainable at the beginning, whereas many small businesses/hobby
+        projects are.<p>Drew Houston from <em>Dropbox</em> was also a solo dev at
+        the very beginning of <em>Dropbox</em>, but I guess the very fact that by
+        definition start-ups are destined to grow quickly means that new people need
+        to be brought on board at some point..."},"story_title":{"matchLevel":"none","matchedWords":[],"value":"Ask
+        HN: Solo developer successful startups examples?"},"story_url":{"matchLevel":"none","matchedWords":[],"value":""}},"_tags":["comment","author_louisswiss","story_9998096"],"author":"louisswiss","comment_text":"true
+        (I&#x27;m assuming)...<p>I guess it depends whether we&#x27;re talking about
+        start-ups or small businesses&#x2F;hobby projects.<p>I don&#x27;t think I&#x27;ve
+        heard of any start-ups which were sustainable at the beginning, whereas many
+        small businesses&#x2F;hobby projects are.<p>Drew Houston from Dropbox was
+        also a solo dev at the very beginning of Dropbox, but I guess the very fact
+        that by definition start-ups are destined to grow quickly means that new people
+        need to be brought on board at some point...","created_at":"2015-08-03T18:31:33Z","created_at_i":1438626693,"objectID":"9998612","parent_id":9998546,"points":null,"story_id":9998096,"story_title":"Ask
+        HN: Solo developer successful startups examples?","story_url":"","updated_at":"2023-09-07T03:21:59Z"},{"_highlightResult":{"author":{"matchLevel":"none","matchedWords":[],"value":"codegeek"},"comment_text":{"fullyHighlighted":false,"matchLevel":"full","matchedWords":["dropbox"],"value":"I
+        just go with keepassx for these things. Have a master file/password that is
+        ultra secure and then manage this file on <em>dropbox</em> etc."},"story_title":{"matchLevel":"none","matchedWords":[],"value":"Ask
+        HN: What''s the best way to manage clients'' credentials?"},"story_url":{"matchLevel":"none","matchedWords":[],"value":""}},"_tags":["comment","author_codegeek","story_9997969"],"author":"codegeek","comment_text":"I
+        just go with keepassx for these things. Have a master file&#x2F;password that
+        is ultra secure and then manage this file on dropbox etc.","created_at":"2015-08-03T18:15:45Z","created_at_i":1438625745,"objectID":"9998466","parent_id":9997969,"points":null,"story_id":9997969,"story_title":"Ask
+        HN: What''s the best way to manage clients'' credentials?","story_url":"","updated_at":"2023-09-07T03:21:59Z"},{"_highlightResult":{"author":{"matchLevel":"none","matchedWords":[],"value":"NhanH"},"comment_text":{"fullyHighlighted":false,"matchLevel":"full","matchedWords":["dropbox"],"value":"Location:
+        CA, US<p>Remote: I''m looking for remote ONLY.<p>Willing to relocate: No<p>Technologies:
+        Python, Clojure, Java, PHP with the appropriate ecosystem for each languages.
+        Also the usual SQL, redis, activeMQ etc. stuffs.<p>R\u00e9sum\u00e9/CV: <a
+        href=\"https://www.dropbox.com/s/1jrl2okb7rn1xa1/NhanHo-Resume.pdf?dl=0\"
+        rel=\"nofollow\">https://www.<em>dropbox</em>.com/s/1jrl2okb7rn1xa1/NhanHo-Resume.pdf?...</a><p>Email:
+        human@nhanho.me<p>I''m working mostly on backend stuffs nowadays, but am capable
+        of doing pretty much to get a website/web services up and running (yes, including
+        reasonable sys admin works). Right now, I''m looking for some part time/ contract
+        remote works. If you have something that is in need of a hand, please get
+        in contact!"},"story_title":{"matchLevel":"none","matchedWords":[],"value":"Ask
+        HN: Who wants to be hired? (August 2015)"}},"_tags":["comment","author_NhanH","story_9996335"],"author":"NhanH","comment_text":"Location:
+        CA, US<p>Remote: I&#x27;m looking for remote ONLY.<p>Willing to relocate:
+        No<p>Technologies: Python, Clojure, Java, PHP with the appropriate ecosystem
+        for each languages. Also the usual SQL, redis, activeMQ etc. stuffs.<p>R\u00e9sum\u00e9&#x2F;CV:
+        <a href=\"https:&#x2F;&#x2F;www.dropbox.com&#x2F;s&#x2F;1jrl2okb7rn1xa1&#x2F;NhanHo-Resume.pdf?dl=0\"
+        rel=\"nofollow\">https:&#x2F;&#x2F;www.dropbox.com&#x2F;s&#x2F;1jrl2okb7rn1xa1&#x2F;NhanHo-Resume.pdf?...</a><p>Email:
+        human@nhanho.me<p>I&#x27;m working mostly on backend stuffs nowadays, but
+        am capable of doing pretty much to get a website&#x2F;web services up and
+        running (yes, including reasonable sys admin works). Right now, I&#x27;m looking
+        for some part time&#x2F; contract remote works. If you have something that
+        is in need of a hand, please get in contact!","created_at":"2015-08-03T17:44:41Z","created_at_i":1438623881,"objectID":"9998166","parent_id":9996335,"points":null,"story_id":9996335,"story_title":"Ask
+        HN: Who wants to be hired? (August 2015)","updated_at":"2023-09-07T03:21:59Z"},{"_highlightResult":{"author":{"matchLevel":"none","matchedWords":[],"value":"purpleparakeet"},"comment_text":{"fullyHighlighted":false,"matchLevel":"full","matchedWords":["dropbox"],"value":"Location:
+        Minneapolis, MN<p>Remote: Yes<p>Willing to relocate: Yes<p>Technologies: D3.js,
+        iOS<p>R\u00e9sum\u00e9/CV: <em>dropbox</em>.com/s/jxscu5lp08by8x5/kshitij_aranke_resume.pdf<p>Email:
+        kshitij.aranke@gmail.com"},"story_title":{"matchLevel":"none","matchedWords":[],"value":"Ask
+        HN: Who wants to be hired? (August 2015)"}},"_tags":["comment","author_purpleparakeet","story_9996335"],"author":"purpleparakeet","comment_text":"Location:
+        Minneapolis, MN<p>Remote: Yes<p>Willing to relocate: Yes<p>Technologies: D3.js,
+        iOS<p>R\u00e9sum\u00e9&#x2F;CV: dropbox.com&#x2F;s&#x2F;jxscu5lp08by8x5&#x2F;kshitij_aranke_resume.pdf<p>Email:
+        kshitij.aranke@gmail.com","created_at":"2015-08-03T17:31:19Z","created_at_i":1438623079,"objectID":"9998030","parent_id":9996335,"points":null,"story_id":9996335,"story_title":"Ask
+        HN: Who wants to be hired? (August 2015)","updated_at":"2023-09-07T03:21:59Z"}],"hitsPerPage":5,"nbHits":59414,"nbPages":200,"page":0,"params":"query=dropbox&tags=comment&hitsPerPage=5&page=0&advancedSyntax=true&analyticsTags=backend","processingTimeMS":16,"processingTimingsMS":{"_request":{"roundTrip":15},"fetch":{"query":5,"scanning":10,"total":16},"total":16},"query":"dropbox","serverTimeMS":17}
+
+        '
+    headers:
+      Alt-Svc:
+      - h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+      Content-Length:
+      - '8934'
+      access-control-allow-origin:
+      - '*'
+      content-type:
+      - application/json
+      date:
+      - Sun, 15 Feb 2026 16:07:53 GMT
+      server:
+      - Google Frontend
+      via:
+      - 1.1 google
+      x-cloud-trace-context:
+      - e16262dab0c6911624bf70be2b107aae
+    status:
+      code: 200
+      message: OK
+version: 1

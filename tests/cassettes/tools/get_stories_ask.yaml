@@ -1,0 +1,243 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Host:
+      - hn.algolia.com
+      User-Agent:
+      - python-httpx/0.28.1
+    method: GET
+    uri: https://hn.algolia.com/api/v1/search?tags=ask_hn&hitsPerPage=3
+  response:
+    body:
+      string: '{"exhaustive":{"nbHits":false,"typo":true},"exhaustiveNbHits":false,"exhaustiveTypo":true,"hits":[{"_highlightResult":{"author":{"matchLevel":"none","matchedWords":[],"value":"SimingtonFCC"},"story_text":{"matchLevel":"none","matchedWords":[],"value":"Hi
+        everyone, I\u2019m FCC Commissioner Nathan Simington, and I\u2019m here to
+        discuss security updates for IoT devices and how you can make a difference
+        by filing comments with the FCC.<p>As you know, serious vulnerabilities are
+        common in IoT, and it often takes too long for these to be patched on end-user
+        devices\u2014if the manufacturer even bothers to release an update, and if
+        the device was even designed to receive them. Companies may stop supporting
+        a device well before consumers have stopped using it. The support period is
+        often not communicated at the time of sale. And sometimes the end of support
+        is not even announced, leaving even informed users unsure whether their devices
+        are still safe.<p>I\u2019ve advocated for the FCC to require device manufacturers
+        to support their devices with security updates for a reasonable amount of
+        time [1]. I can''t bring such a proposal to a vote since I\u2019m not the
+        chairman of the agency. But I was able to convince my colleagues to tentatively
+        support something a little more moderate addressing this problem.<p>The FCC
+        recently issued a Notice of Proposed Rulemaking [2] for a cybersecurity labeling
+        program for connected devices. If they meet certain criteria for the security
+        of their product, manufacturers can put an FCC cybersecurity label on it.
+        I fought hard for one of these criteria to be the disclosure of how long the
+        product will receive security updates. I hope that, besides arming consumers
+        with better information, the commitments on this label (including the support
+        period) will be legally enforceable in contract and tort lawsuits and under
+        other laws. You can see my full statement here [3].<p>But it\u2019s too early
+        to declare victory. Many manufacturers oppose making any commitments about
+        security updates, even voluntary ones. These manufacturers are heavily engaged
+        at the FCC and represented by sophisticated regulatory lawyers. The FCC and
+        White House are not likely to take a strong stand if they only hear the device
+        manufacturer''s side of the story.<p>In short, they need to hear from you.
+        You have experienced insecure protocols, exposed private keys, and other atrocious
+        security. You have seen these problems persist despite ample warning. People
+        ask, \u2018why aren\u2019t there rules about these things?\u2019 This is your
+        chance to get on the record and tell us what you think the rules should be.
+        If infosec doesn\u2019t make this an issue, the general public will continue
+        falsely assuming that everything is fine. But if you get on the record and
+        the government fails to act, the evidence of this failure will be all over
+        the Internet forever.<p>If you want to influence the process, you have until
+        September 25th, 2023 (midnight ET) to file comments in the rulemaking proceeding.[4]
+        Filing is easy: go to <a href=\"https://www.fcc.gov/ecfs/search/docket-detail/23-239\"
+        rel=\"nofollow noreferrer\">https://www.fcc.gov/ecfs/search/docket-detail/23-239</a>
+        and click to file either an \u2018express\u2019 comment (type into a textbox)
+        or a \u2018standard\u2019 comment (upload a PDF). Either way, the FCC is required
+        to consider your arguments. All options are on the table, so don\u2019t hold
+        back, but do make your arguments as clear as possible, so even lawyers can
+        understand them. If you have a qualification (line of work, special degree,
+        years of experience, etc.) that would bolster the credibility of your official
+        comment, be sure to mention that, but the only necessary qualification is
+        being an interested member of the public.<p>I\u2019m here to listen and learn.
+        AMA. Feel free to ask any questions about this or related issues, and I\u2019ll
+        answer as many as I can. I just ask that we try to stay on the topic of security.
+        My legal advisor, Marco Peraza, a security-focused software engineer turned
+        cybersecurity lawyer, will be answering questions too.   \nI\u2019m open to
+        incorporating your ideas (and even being convinced I\u2019m wrong), and I
+        hope that my colleagues at the FCC are as well. Thank you!<p>Edit: The Q&amp;A
+        is over now, but please keep this great discussion going without us. Thanks
+        again everyone for your input. Don''t forget to file comments if you want
+        to make sure your arguments get considered by the full FCC.<p>[1] <a href=\"https://www.fcc.gov/document/simington-calls-mandatory-security-updates\"
+        rel=\"nofollow noreferrer\">https://www.fcc.gov/document/simington-calls-mandatory-secur...</a><p>[2]
+        <a href=\"https://www.fcc.gov/document/fcc-proposes-cybersecurity-labeling-program-smart-devices\"
+        rel=\"nofollow noreferrer\">https://www.fcc.gov/document/fcc-proposes-cybersecurity-labe...</a><p>[3]
+        <a href=\"https://www.fcc.gov/document/fcc-proposes-cybersecurity-labeling-program-smart-devices/simington-statement\"
+        rel=\"nofollow noreferrer\">https://www.fcc.gov/document/fcc-proposes-cybersecurity-labe...</a><p>[4]
+        If your comments are purely in response to arguments made in other comments,
+        you have an extra 15 days, until October 10, 2023."},"title":{"matchLevel":"none","matchedWords":[],"value":"Ask
+        HN: I\u2019m an FCC Commissioner proposing regulation of IoT security updates"}},"_tags":["story","author_SimingtonFCC","story_37392676","ask_hn"],"author":"SimingtonFCC","children":[37392900,37392910,37392928,37392934,37392942,37392952,37392956,37392969,37392974,37392985,37392997,37393008,37393033,37393035,37393057,37393087,37393097,37393125,37393126,37393130,37393151,37393161,37393165,37393166,37393175,37393193,37393228,37393230,37393243,37393252,37393268,37393292,37393297,37393298,37393300,37393317,37393328,37393350,37393457,37393459,37393491,37393517,37393537,37393538,37393547,37393551,37393619,37393684,37393707,37393715,37393780,37393829,37393884,37393915,37393944,37394000,37394052,37394080,37394111,37394116,37394124,37394142,37394144,37394146,37394154,37394198,37394221,37394223,37394329,37394346,37394359,37394484,37394497,37394502,37394546,37394561,37394582,37394589,37394598,37394599,37394608,37394627,37394645,37394662,37394692,37394731,37394763,37394863,37394892,37394893,37394924,37394982,37394992,37394994,37395071,37395082,37395125,37395148,37395177,37395201,37395273,37395274,37395281,37395332,37395355,37395376,37395452,37395489,37395522,37395676,37395714,37395718,37395736,37395756,37395763,37395768,37395867,37395873,37395919,37396007,37396009,37396054,37396080,37396097,37396098,37396205,37396224,37396237,37396350,37396376,37396391,37396444,37396492,37396493,37396509,37396546,37396583,37396603,37396611,37396634,37396707,37396772,37396872,37396877,37396943,37397001,37397014,37397062,37397096,37397118,37397131,37397162,37397173,37397190,37397191,37397242,37397295,37397322,37397380,37397514,37397736,37397744,37397759,37397788,37397794,37397829,37398057,37398064,37398130,37398219,37398232,37398342,37398416,37398502,37398624,37398765,37398827,37398905,37398971,37398984,37399010,37399609,37399651,37399688,37399797,37400381,37400528,37400701,37400734,37400889,37400909,37401091,37401233,37401342,37401387,37401400,37401419,37401483,37401493,37401603,37402121,37402297,37402336,37402445,37402528,37402543,37402606,37403352,37403748,37404113,37404198,37404210,37404485,37404670,37405245,37405382,37405549,37406694,37407065,37407500,37408145,37408390,37411321,37411981,37414708,37428457,37455913,37455928,37468243],"created_at":"2023-09-05T15:07:21Z","created_at_i":1693926441,"num_comments":925,"objectID":"37392676","points":3387,"story_id":37392676,"story_text":"Hi
+        everyone, I\u2019m FCC Commissioner Nathan Simington, and I\u2019m here to
+        discuss security updates for IoT devices and how you can make a difference
+        by filing comments with the FCC.<p>As you know, serious vulnerabilities are
+        common in IoT, and it often takes too long for these to be patched on end-user
+        devices\u2014if the manufacturer even bothers to release an update, and if
+        the device was even designed to receive them. Companies may stop supporting
+        a device well before consumers have stopped using it. The support period is
+        often not communicated at the time of sale. And sometimes the end of support
+        is not even announced, leaving even informed users unsure whether their devices
+        are still safe.<p>I\u2019ve advocated for the FCC to require device manufacturers
+        to support their devices with security updates for a reasonable amount of
+        time [1]. I can&#x27;t bring such a proposal to a vote since I\u2019m not
+        the chairman of the agency. But I was able to convince my colleagues to tentatively
+        support something a little more moderate addressing this problem.<p>The FCC
+        recently issued a Notice of Proposed Rulemaking [2] for a cybersecurity labeling
+        program for connected devices. If they meet certain criteria for the security
+        of their product, manufacturers can put an FCC cybersecurity label on it.
+        I fought hard for one of these criteria to be the disclosure of how long the
+        product will receive security updates. I hope that, besides arming consumers
+        with better information, the commitments on this label (including the support
+        period) will be legally enforceable in contract and tort lawsuits and under
+        other laws. You can see my full statement here [3].<p>But it\u2019s too early
+        to declare victory. Many manufacturers oppose making any commitments about
+        security updates, even voluntary ones. These manufacturers are heavily engaged
+        at the FCC and represented by sophisticated regulatory lawyers. The FCC and
+        White House are not likely to take a strong stand if they only hear the device
+        manufacturer&#x27;s side of the story.<p>In short, they need to hear from
+        you. You have experienced insecure protocols, exposed private keys, and other
+        atrocious security. You have seen these problems persist despite ample warning.
+        People ask, \u2018why aren\u2019t there rules about these things?\u2019 This
+        is your chance to get on the record and tell us what you think the rules should
+        be. If infosec doesn\u2019t make this an issue, the general public will continue
+        falsely assuming that everything is fine. But if you get on the record and
+        the government fails to act, the evidence of this failure will be all over
+        the Internet forever.<p>If you want to influence the process, you have until
+        September 25th, 2023 (midnight ET) to file comments in the rulemaking proceeding.[4]
+        Filing is easy: go to <a href=\"https:&#x2F;&#x2F;www.fcc.gov&#x2F;ecfs&#x2F;search&#x2F;docket-detail&#x2F;23-239\"
+        rel=\"nofollow noreferrer\">https:&#x2F;&#x2F;www.fcc.gov&#x2F;ecfs&#x2F;search&#x2F;docket-detail&#x2F;23-239</a>
+        and click to file either an \u2018express\u2019 comment (type into a textbox)
+        or a \u2018standard\u2019 comment (upload a PDF). Either way, the FCC is required
+        to consider your arguments. All options are on the table, so don\u2019t hold
+        back, but do make your arguments as clear as possible, so even lawyers can
+        understand them. If you have a qualification (line of work, special degree,
+        years of experience, etc.) that would bolster the credibility of your official
+        comment, be sure to mention that, but the only necessary qualification is
+        being an interested member of the public.<p>I\u2019m here to listen and learn.
+        AMA. Feel free to ask any questions about this or related issues, and I\u2019ll
+        answer as many as I can. I just ask that we try to stay on the topic of security.
+        My legal advisor, Marco Peraza, a security-focused software engineer turned
+        cybersecurity lawyer, will be answering questions too.   \nI\u2019m open to
+        incorporating your ideas (and even being convinced I\u2019m wrong), and I
+        hope that my colleagues at the FCC are as well. Thank you!<p>Edit: The Q&amp;A
+        is over now, but please keep this great discussion going without us. Thanks
+        again everyone for your input. Don&#x27;t forget to file comments if you want
+        to make sure your arguments get considered by the full FCC.<p>[1] <a href=\"https:&#x2F;&#x2F;www.fcc.gov&#x2F;document&#x2F;simington-calls-mandatory-security-updates\"
+        rel=\"nofollow noreferrer\">https:&#x2F;&#x2F;www.fcc.gov&#x2F;document&#x2F;simington-calls-mandatory-secur...</a><p>[2]
+        <a href=\"https:&#x2F;&#x2F;www.fcc.gov&#x2F;document&#x2F;fcc-proposes-cybersecurity-labeling-program-smart-devices\"
+        rel=\"nofollow noreferrer\">https:&#x2F;&#x2F;www.fcc.gov&#x2F;document&#x2F;fcc-proposes-cybersecurity-labe...</a><p>[3]
+        <a href=\"https:&#x2F;&#x2F;www.fcc.gov&#x2F;document&#x2F;fcc-proposes-cybersecurity-labeling-program-smart-devices&#x2F;simington-statement\"
+        rel=\"nofollow noreferrer\">https:&#x2F;&#x2F;www.fcc.gov&#x2F;document&#x2F;fcc-proposes-cybersecurity-labe...</a><p>[4]
+        If your comments are purely in response to arguments made in other comments,
+        you have an extra 15 days, until October 10, 2023.","title":"Ask HN: I\u2019m
+        an FCC Commissioner proposing regulation of IoT security updates","updated_at":"2025-10-06T20:38:18Z"},{"_highlightResult":{"author":{"matchLevel":"none","matchedWords":[],"value":"zachrip"},"story_text":{"matchLevel":"none","matchedWords":[],"value":"I''m
+        a 24 y/o full stack engineer (I know some of you are rolling your eyes right
+        now, just highlighting that I have experience on frontend apps as well as
+        backend architecture). I''ve been working professionally for ~7 years building
+        mostly javascript projects but also some PHP. Two years ago I was diagnosed
+        with a condition called &quot;Usher''s Syndrome&quot; - characterized by hearing
+        loss, balance issues, and progressive vision loss.<p>I know there are blind
+        software engineers out there. My main questions are:<p>- Are there blind frontend
+        engineers?<p>- What kinds of software engineering lend themselves to someone
+        with limited vision? Backend only?<p>- Besides a screen reader, what are some
+        of the best tools for building software with limited vision?<p>- Does your
+        company employ blind engineers? How well does it work? What kind of engineer
+        are they?<p>I''m really trying to get ahead of this thing and prepare myself
+        as my vision is degrading rather quickly. I''m not sure what I can do if I
+        can''t do SE as I don''t have any formal education in anything. I''ve worked
+        really hard to get to where I am and don''t want it to go to waste.<p>Thank
+        you for any input, and stay safe out there!<p>Edit:<p>Thank you all for your
+        links, suggestions, and moral support, I really appreciate it. Since my diagnosis
+        I''ve slowly developed a crippling anxiety centered around a feeling that
+        I need to figure out the rest of my life before it''s too late. I know I shouldn''t
+        think this way but it is hard not to. I''m very independent and I feel a pressure
+        to &quot;show up.&quot; I will look into these opportunities mentioned and
+        try to get in touch with some more members of the blind engineering community."},"title":{"matchLevel":"none","matchedWords":[],"value":"Ask
+        HN: I''m a software engineer going blind, how should I prepare?"}},"_tags":["story","author_zachrip","story_22918980","ask_hn"],"author":"zachrip","children":[22919021,22919079,22919129,22919134,22919135,22919157,22919161,22919162,22919165,22919174,22919177,22919180,22919182,22919203,22919206,22919207,22919226,22919230,22919231,22919236,22919258,22919267,22919269,22919290,22919291,22919302,22919303,22919317,22919326,22919332,22919337,22919343,22919345,22919347,22919350,22919351,22919372,22919377,22919389,22919397,22919437,22919455,22919478,22919483,22919539,22919542,22919549,22919550,22919561,22919562,22919571,22919574,22919597,22919614,22919620,22919643,22919645,22919653,22919689,22919691,22919693,22919718,22919730,22919766,22919776,22919778,22919832,22919855,22919863,22919932,22919943,22920016,22920035,22920037,22920042,22920047,22920111,22920112,22920119,22920183,22920217,22920353,22920360,22920466,22920498,22920508,22920587,22920622,22920624,22920763,22920770,22920874,22920887,22920922,22920926,22920993,22921001,22921002,22921022,22921055,22921136,22921149,22921154,22921189,22921209,22921382,22921499,22921801,22921835,22921844,22921994,22922097,22922136,22922175,22922177,22922188,22922192,22922215,22922226,22922315,22922321,22922371,22922449,22922459,22922559,22922609,22922691,22922760,22922900,22922933,22923137,22923153,22923391,22923547,22923729,22923762,22923801,22923813,22923827,22923936,22924065,22924266,22924303,22924334,22924434,22924509,22924561,22924625,22924868,22924980,22924986,22925104,22925218,22925220,22925726,22925981,22926053,22926219,22926283,22926343,22926441,22926448,22926457,22927024,22928615,22929106,22929214,22929221,22929460,22929581,22929958,22930298,22930516,22930970,22932440,22932963,22932973,22933076,22933466,22933552,22933716,22934337,22934451,22934547,22934889,22935059,22935320,22935971,22938294,22938314,22942267,22969175,23047541,23059554],"created_at":"2020-04-19T21:33:46Z","created_at_i":1587332026,"num_comments":473,"objectID":"22918980","points":3270,"story_id":22918980,"story_text":"I&#x27;m
+        a 24 y&#x2F;o full stack engineer (I know some of you are rolling your eyes
+        right now, just highlighting that I have experience on frontend apps as well
+        as backend architecture). I&#x27;ve been working professionally for ~7 years
+        building mostly javascript projects but also some PHP. Two years ago I was
+        diagnosed with a condition called &quot;Usher&#x27;s Syndrome&quot; - characterized
+        by hearing loss, balance issues, and progressive vision loss.<p>I know there
+        are blind software engineers out there. My main questions are:<p>- Are there
+        blind frontend engineers?<p>- What kinds of software engineering lend themselves
+        to someone with limited vision? Backend only?<p>- Besides a screen reader,
+        what are some of the best tools for building software with limited vision?<p>-
+        Does your company employ blind engineers? How well does it work? What kind
+        of engineer are they?<p>I&#x27;m really trying to get ahead of this thing
+        and prepare myself as my vision is degrading rather quickly. I&#x27;m not
+        sure what I can do if I can&#x27;t do SE as I don&#x27;t have any formal education
+        in anything. I&#x27;ve worked really hard to get to where I am and don&#x27;t
+        want it to go to waste.<p>Thank you for any input, and stay safe out there!<p>Edit:<p>Thank
+        you all for your links, suggestions, and moral support, I really appreciate
+        it. Since my diagnosis I&#x27;ve slowly developed a crippling anxiety centered
+        around a feeling that I need to figure out the rest of my life before it&#x27;s
+        too late. I know I shouldn&#x27;t think this way but it is hard not to. I&#x27;m
+        very independent and I feel a pressure to &quot;show up.&quot; I will look
+        into these opportunities mentioned and try to get in touch with some more
+        members of the blind engineering community.","title":"Ask HN: I''m a software
+        engineer going blind, how should I prepare?","updated_at":"2025-12-19T16:44:06Z"},{"_highlightResult":{"author":{"matchLevel":"none","matchedWords":[],"value":"genedangelo"},"story_text":{"matchLevel":"none","matchedWords":[],"value":"In
+        May of 1963, I started my first full-time job as a computer programmer for
+        Mitchell Engineering Company, a supplier of steel buildings.  At Mitchell,
+        I developed programs in Fortran II on an IBM 1620 mostly to improve the efficiency
+        of order processing and fulfillment.  Since then, all my jobs for the past
+        57 years have involved computer programming.  I am now a data scientist developing
+        cloud-based big data fraud detection algorithms using machine learning and
+        other advanced analytical technologies.  Along the way, I earned a Master\u2019s
+        in Operations Research and a Master\u2019s in Management Science, studied
+        artificial intelligence for 3 years in a Ph.D. program for engineering, and
+        just two years ago I received Graduate Certificates in Big Data Analytics
+        from the schools of business and computer science at a local university (FAU).  In
+        addition, I currently hold the designation of Certified Analytics Professional
+        (CAP).  At 74, I still have no plans to retire or to stop programming."},"title":{"matchLevel":"none","matchedWords":[],"value":"Ask
+        HN: Am I the longest-serving programmer \u2013 57 years and counting?"}},"_tags":["story","author_genedangelo","story_23366546","ask_hn"],"author":"genedangelo","children":[23366553,23366568,23366594,23366675,23366687,23366688,23366797,23366816,23366866,23366875,23366888,23366897,23366914,23366921,23366925,23366950,23366991,23367006,23367022,23367036,23367059,23367061,23367081,23367083,23367088,23367090,23367092,23367100,23367110,23367132,23367134,23367135,23367138,23367159,23367164,23367171,23367187,23367197,23367202,23367212,23367221,23367231,23367240,23367244,23367259,23367276,23367288,23367299,23367305,23367311,23367316,23367337,23367348,23367359,23367361,23367386,23367411,23367418,23367426,23367436,23367474,23367487,23367516,23367522,23367612,23367635,23367657,23367675,23367745,23367752,23367757,23367770,23367798,23367899,23367906,23367909,23367997,23368055,23368071,23368096,23368099,23368149,23368154,23368251,23368257,23368335,23368357,23368456,23368464,23368475,23368488,23368500,23368515,23368630,23368666,23368708,23368751,23368763,23368813,23368842,23368941,23369089,23369122,23369127,23369157,23369223,23369250,23369269,23369432,23369435,23369468,23369484,23369648,23369656,23369702,23369807,23369861,23369866,23370082,23370336,23370391,23370493,23370557,23370569,23370626,23370667,23370684,23370865,23370876,23371252,23371466,23371467,23372875,23373105,23373955,23374417,23374756,23374970,23375270,23375643,23375658,23375670,23375752,23376072,23376462,23376573,23377762,23377927,23378057,23378073,23378183,23378184,23378260,23378791,23379627,23379666,23379750,23379894,23380324,23388553,23432087,23446148,23468259],"created_at":"2020-05-31T01:53:44Z","created_at_i":1590890024,"num_comments":531,"objectID":"23366546","points":2634,"story_id":23366546,"story_text":"In
+        May of 1963, I started my first full-time job as a computer programmer for
+        Mitchell Engineering Company, a supplier of steel buildings.  At Mitchell,
+        I developed programs in Fortran II on an IBM 1620 mostly to improve the efficiency
+        of order processing and fulfillment.  Since then, all my jobs for the past
+        57 years have involved computer programming.  I am now a data scientist developing
+        cloud-based big data fraud detection algorithms using machine learning and
+        other advanced analytical technologies.  Along the way, I earned a Master\u2019s
+        in Operations Research and a Master\u2019s in Management Science, studied
+        artificial intelligence for 3 years in a Ph.D. program for engineering, and
+        just two years ago I received Graduate Certificates in Big Data Analytics
+        from the schools of business and computer science at a local university (FAU).  In
+        addition, I currently hold the designation of Certified Analytics Professional
+        (CAP).  At 74, I still have no plans to retire or to stop programming.","title":"Ask
+        HN: Am I the longest-serving programmer \u2013 57 years and counting?","updated_at":"2025-08-31T16:29:21Z"}],"hitsPerPage":3,"nbHits":2191478,"nbPages":334,"page":0,"params":"tags=ask_hn&hitsPerPage=3&advancedSyntax=true&analyticsTags=backend","processingTimeMS":2,"processingTimingsMS":{"_request":{"roundTrip":21},"fetch":{"total":1},"total":2},"query":"","serverTimeMS":3}
+
+        '
+    headers:
+      Alt-Svc:
+      - h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+      Content-Length:
+      - '23291'
+      access-control-allow-origin:
+      - '*'
+      content-type:
+      - application/json
+      date:
+      - Sun, 15 Feb 2026 16:07:51 GMT
+      server:
+      - Google Frontend
+      via:
+      - 1.1 google
+      x-cloud-trace-context:
+      - e591676fc2366500a6b0bb2e73ab56a8
+    status:
+      code: 200
+      message: OK
+version: 1

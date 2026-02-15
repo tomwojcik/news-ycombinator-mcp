@@ -1,0 +1,48 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Host:
+      - hn.algolia.com
+      User-Agent:
+      - python-httpx/0.28.1
+    method: GET
+    uri: https://hn.algolia.com/api/v1/search_by_date?tags=story&hitsPerPage=3
+  response:
+    body:
+      string: '{"exhaustive":{"nbHits":false,"typo":true},"exhaustiveNbHits":false,"exhaustiveTypo":true,"hits":[{"_highlightResult":{"author":{"matchLevel":"none","matchedWords":[],"value":"MrBuddyCasino"},"title":{"matchLevel":"none","matchedWords":[],"value":"PersonaPlex-7B:
+        full-duplex voice model that listens and talks at the same time"},"url":{"matchLevel":"none","matchedWords":[],"value":"https://huggingface.co/nvidia/personaplex-7b-v1"}},"_tags":["story","author_MrBuddyCasino","story_47024785"],"author":"MrBuddyCasino","created_at":"2026-02-15T16:05:29Z","created_at_i":1771171529,"num_comments":0,"objectID":"47024785","points":1,"story_id":47024785,"title":"PersonaPlex-7B:
+        full-duplex voice model that listens and talks at the same time","updated_at":"2026-02-15T16:07:41Z","url":"https://huggingface.co/nvidia/personaplex-7b-v1"},{"_highlightResult":{"author":{"matchLevel":"none","matchedWords":[],"value":"newsoftheday"},"title":{"matchLevel":"none","matchedWords":[],"value":"Wall
+        Street could seize your retirement savings in the next financial crash"},"url":{"matchLevel":"none","matchedWords":[],"value":"https://www.foxnews.com/opinion/wall-street-could-seize-your-retirement-savings-next-financial-crash-its-perfectly-legal"}},"_tags":["story","author_newsoftheday","story_47024773"],"author":"newsoftheday","children":[47024774],"created_at":"2026-02-15T16:03:54Z","created_at_i":1771171434,"num_comments":1,"objectID":"47024773","points":2,"story_id":47024773,"title":"Wall
+        Street could seize your retirement savings in the next financial crash","updated_at":"2026-02-15T16:07:41Z","url":"https://www.foxnews.com/opinion/wall-street-could-seize-your-retirement-savings-next-financial-crash-its-perfectly-legal"},{"_highlightResult":{"author":{"matchLevel":"none","matchedWords":[],"value":"Teever"},"title":{"matchLevel":"none","matchedWords":[],"value":"Canada
+        Has a Secessionist Movement on Its Hands. Its Supporters Thank Trump"},"url":{"matchLevel":"none","matchedWords":[],"value":"https://www.wsj.com/world/americas/alberta-canada-independence-7549e240"}},"_tags":["story","author_Teever","story_47024735"],"author":"Teever","created_at":"2026-02-15T15:59:54Z","created_at_i":1771171194,"num_comments":0,"objectID":"47024735","points":2,"story_id":47024735,"title":"Canada
+        Has a Secessionist Movement on Its Hands. Its Supporters Thank Trump","updated_at":"2026-02-15T16:03:27Z","url":"https://www.wsj.com/world/americas/alberta-canada-independence-7549e240"}],"hitsPerPage":3,"nbHits":3858367,"nbPages":334,"page":0,"params":"tags=story&hitsPerPage=3&advancedSyntax=true&analyticsTags=backend","processingTimeMS":1,"processingTimingsMS":{"_request":{"roundTrip":14},"fetch":{"scanning":2},"total":1},"query":"","serverTimeMS":2}
+
+        '
+    headers:
+      Alt-Svc:
+      - h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+      Content-Length:
+      - '2749'
+      access-control-allow-origin:
+      - '*'
+      content-type:
+      - application/json
+      date:
+      - Sun, 15 Feb 2026 16:07:50 GMT
+      server:
+      - Google Frontend
+      via:
+      - 1.1 google
+      x-cloud-trace-context:
+      - 019ae1db331d25ac04bab6d250e02085
+    status:
+      code: 200
+      message: OK
+version: 1
