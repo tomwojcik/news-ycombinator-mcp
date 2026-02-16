@@ -1,12 +1,22 @@
 # hn-mcp
 
-MCP server for browsing **full** Hacker News comment trees. No artificial depth limits, no truncation.
+[![PyPI](https://img.shields.io/pypi/v/hn-mcp)](https://pypi.org/project/hn-mcp/)
+[![Python 3.12+](https://img.shields.io/badge/python-3.12%2B-blue)](https://www.python.org/downloads/)
+[![codecov](https://codecov.io/gh/tomwojcik/news-ycombinator-mcp/graph/badge.svg)](https://codecov.io/gh/tomwojcik/news-ycombinator-mcp)
+[![License: MIT](https://img.shields.io/badge/license-MIT-yellow)](LICENSE)
 
-Built for AI agents that need to read and summarize entire HN discussions. Uses the [Algolia HN API](https://hn.algolia.com/api) under the hood.
+HN threads have 500+ comments nested 10 levels deep. Your AI agent needs to read them without blowing its context window.
 
-## Why
+**hn-mcp** is an MCP server that gives AI agents full access to Hacker News — complete comment trees, search, and user profiles — with depth control so they can explore progressively instead of fetching everything at once.
 
-This server fetches the complete tree from Algolia and lets you control depth client-side — from "just top-level with reply counts" to "give me everything".
+### Features
+
+- **Full comment trees** — no depth limits, no truncation
+- **Depth control** — fetch just top-level comments or the entire tree
+- **Smart pruning** — `reply_count` at cut-off points so agents decide what to expand
+- **Search** — full-text search across stories and comments with filters
+- **No API keys** — uses the public Algolia HN API
+- **100% test coverage** — tested with VCR cassettes, no network calls needed
 
 ### Typical agent workflow
 
@@ -19,15 +29,84 @@ This server fetches the complete tree from Algolia and lets you control depth cl
 
 Or for smaller threads, just `get_thread(id, depth=-1)` to get the entire tree at once.
 
-## Install in Claude Code
+## Getting started
+
+**Standard config** works in most tools:
+
+```json
+{
+  "mcpServers": {
+    "hn": {
+      "command": "uvx",
+      "args": ["hn-mcp"]
+    }
+  }
+}
+```
+
+<details>
+<summary>Claude Code</summary>
 
 ```bash
 claude mcp add hn -- uvx hn-mcp
 ```
 
-That's it. Add `--scope user` to make it available in all projects.
+Add `--scope user` to make it available in all projects.
 
-### From source
+</details>
+
+<details>
+<summary>Claude Desktop</summary>
+
+Follow the MCP install [guide](https://modelcontextprotocol.io/quickstart/user), use the standard config above.
+
+</details>
+
+<details>
+<summary>Cursor</summary>
+
+Add to your Cursor MCP config (`~/.cursor/mcp.json`):
+
+```json
+{
+  "mcpServers": {
+    "hn": {
+      "command": "uvx",
+      "args": ["hn-mcp"]
+    }
+  }
+}
+```
+
+</details>
+
+<details>
+<summary>Windsurf</summary>
+
+Follow the Windsurf MCP [documentation](https://docs.windsurf.com/windsurf/mcp), use the standard config above.
+
+</details>
+
+<details>
+<summary>VS Code / Copilot</summary>
+
+Add to your VS Code MCP config (`.vscode/mcp.json`):
+
+```json
+{
+  "mcpServers": {
+    "hn": {
+      "command": "uvx",
+      "args": ["hn-mcp"]
+    }
+  }
+}
+```
+
+</details>
+
+<details>
+<summary>From source</summary>
 
 If you want to run from a local clone instead:
 
@@ -35,19 +114,7 @@ If you want to run from a local clone instead:
 claude mcp add hn -- uv run --directory /absolute/path/to/news-ycombinator-mcp hn-mcp
 ```
 
-Or manually add to your project's `.claude/settings.json`:
-
-```json
-{
-  "mcpServers": {
-    "hn": {
-      "type": "stdio",
-      "command": "uvx",
-      "args": ["hn-mcp"]
-    }
-  }
-}
-```
+</details>
 
 ### Prerequisites
 
