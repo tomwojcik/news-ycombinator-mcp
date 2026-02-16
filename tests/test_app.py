@@ -99,3 +99,18 @@ class TestPruneComment:
         )
         assert "replies" not in pruned
         assert pruned["reply_count"] == 0
+
+    def test_deleted_child_skipped_in_replies(self):
+        """Branch: _prune_comment returns None for a deleted child inside the loop."""
+        node = {
+            "id": 1,
+            "author": "alice",
+            "text": "parent",
+            "children": [
+                {"id": 2, "author": None, "text": None, "children": []},
+                {"id": 3, "author": "bob", "text": "reply", "children": []},
+            ],
+        }
+        pruned = _prune_comment(node, depth=-1)
+        assert len(pruned["replies"]) == 1
+        assert pruned["replies"][0]["author"] == "bob"

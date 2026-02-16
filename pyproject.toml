@@ -51,7 +51,7 @@ include = [
 
 [tool.pytest.ini_options]
 asyncio_mode = "auto"
-addopts = "--cov=hn_mcp --cov-report=term-missing --cov-fail-under=100"
+addopts = "--cov=hn_mcp --cov-branch --cov-report=term-missing --cov-fail-under=100"
 
 [tool.mypy]
 mypy_path = "src"

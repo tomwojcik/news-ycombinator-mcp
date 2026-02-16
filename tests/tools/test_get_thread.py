@@ -1,3 +1,5 @@
+from unittest.mock import AsyncMock, patch
+
 from hn_mcp.tools.get_thread import get_thread
 from tests.conftest import (
     COMMENT_AUTHOR,
@@ -47,3 +49,24 @@ async def test_depth_minus_1_full_tree():
     assert brandon["author"] == COMMENT_AUTHOR
     assert brandon["reply_count"] > 0
     assert "replies" in brandon
+
+
+async def test_deleted_top_level_comments_skipped():
+    """Branch: top-level children with author=None are filtered out."""
+    fake_data = {
+        "id": 1,
+        "title": "Test",
+        "url": "https://example.com",
+        "author": "alice",
+        "points": 10,
+        "children": [
+            {"id": 2, "author": None, "text": None, "children": []},
+            {"id": 3, "author": "bob", "text": "hello", "children": []},
+        ],
+    }
+    with patch(
+        "hn_mcp.app.client.get_item", new_callable=AsyncMock, return_value=fake_data
+    ):
+        result = await get_thread(1, depth=1)
+    assert len(result["comments"]) == 1
+    assert result["comments"][0]["author"] == "bob"

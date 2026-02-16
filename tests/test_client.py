@@ -55,3 +55,10 @@ async def test_get_user(hn_client: HNClient):
         data = await hn_client.get_user(USERNAME)
     assert data["username"] == USERNAME
     assert isinstance(data["karma"], int)
+
+
+async def test_aclose_without_session():
+    """Branch: aclose() when no session has been created yet."""
+    client = HNClient()
+    await client.aclose()  # should be a no-op
+    assert client._session is None
