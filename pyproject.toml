@@ -1,6 +1,6 @@
 [project]
 name = "hn-mcp"
-version = "0.1.0"
+version = "0.1.1"
 description = "MCP server for browsing full Hacker News API, with no limits with regards to depth etc"
 readme = "README.md"
 license = "MIT"
