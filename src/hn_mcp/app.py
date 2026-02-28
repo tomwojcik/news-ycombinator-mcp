@@ -40,7 +40,7 @@ def _prune_comment(node: dict, depth: int) -> Comment | None:
     comment: Comment = {
         "id": node.get("id"),
         "author": node["author"],
-        "text": node.get("text", ""),
+        "text": node.get("text") or "",
         "reply_count": _count_descendants(children),
     }
 
